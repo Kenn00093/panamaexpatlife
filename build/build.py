@@ -103,7 +103,7 @@ def layout(*, path, title, description, body, current="", schema=None, og_type="
 <header class="site-header">
   <div class="wrap header-inner">
     <a class="brand" href="/" aria-label="{SITE_NAME} home">
-      <img class="brand-mark" src="/brand/mark-suitcase.svg" width="40" height="40" alt="">
+      <img class="brand-mark" src="/brand/logo-round-stamp-512.png" width="48" height="48" alt="">
       <span>Panama <em>Expat</em> Life</span>
     </a>
     <nav aria-label="Main">
