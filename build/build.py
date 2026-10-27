@@ -19,6 +19,9 @@ STATIC = ROOT / "build" / "static"
 
 PAGE_BY_SLUG = {p["slug"]: p for p in PAGES}
 
+import hashlib
+CSS_VERSION = hashlib.md5((STATIC / "style.css").read_bytes()).hexdigest()[:8]
+
 
 def text(s):
     """Plain text (entities decoded, tags stripped) for JSON-LD and llms.txt."""
@@ -89,7 +92,7 @@ def layout(*, path, title, description, body, current="", schema=None, og_type="
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Source+Sans+3:wght@400;600;700&display=swap">
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/style.css?v={CSS_VERSION}">
 {schema_html}
 </head>
 <body>
