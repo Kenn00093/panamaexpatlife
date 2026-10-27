@@ -64,8 +64,9 @@ PAGES = [
 <p>A scouting trip is research, not a holiday. Panama's dry season runs roughly from mid-December to April and the rainy season from May to November, so if you can, go in the one you expect to like less. A few habits make the trip far more useful:</p>
 <ul>
   <li><strong>Split your time between regions.</strong> Two weeks is a sensible minimum. Spend several days in each of your shortlisted areas rather than day-tripping from one base. See <a href="/where-to-stay/">where to stay on your scouting trip</a> for the best base in each region.</li>
-  <li><strong>Rent a car once you leave Panama City.</strong> Buses link the main towns, but beach communities, highland villages and the Azuero Peninsula are much easier to compare with your own wheels. Visitors can drive on a valid foreign licence for up to 90 days; carry it with your passport, because police checkpoints are common.</li>
-  <li><strong>Have data from the moment you land.</strong> Setting up a travel eSIM such as <a href="https://airalo.tpx.lu/A0bmF3qo" rel="sponsored nofollow noopener" target="_blank">Airalo</a> (affiliate link) before you fly means maps and messaging work as soon as you leave the airport. Buy a local SIM later if you stay.</li>
+  <li><strong>Rent a car once you leave Panama City.</strong> Buses link the main towns, but beach communities, highland villages and the Azuero Peninsula are much easier to compare with your own wheels. Visitors can drive on a valid foreign licence for up to 90 days; carry it with your passport, because police checkpoints are common. See <a href="/renting-a-car/">renting a car in Panama</a> for insurance, tolls and road tips.</li>
+  <li><strong>Get travel medical insurance.</strong> Your home health plan covers little or nothing in Panama. See <a href="/travel-insurance/">travel insurance for your scouting trip</a>.</li>
+  <li><strong>Have data from the moment you land.</strong> Setting up a travel eSIM such as <a href="https://airalo.tpx.lu/A0bmF3qo" rel="sponsored nofollow noopener" target="_blank">Airalo</a> (affiliate link) before you fly means maps and messaging work as soon as you leave the airport. Buy a local SIM later if you stay. See <a href="/phones-and-internet/">phones and internet in Panama</a>.</li>
   <li><strong>Live an ordinary week.</strong> Do the grocery shop, find the nearest clinic and pharmacy, drive at rush hour and walk around after dark. A normal Tuesday tells you more than a viewpoint.</li>
   <li><strong>Talk to people who live there.</strong> Long-term renters, local business owners and expat groups will tell you what brochures leave out, from water and power cuts to the best time of year.</li>
   <li><strong>Don't sign anything yet.</strong> Use the trip to shortlist towns, meet a lawyer or two and line up a rental for your move. Buying can wait.</li>
@@ -94,77 +95,6 @@ PAGES = [
  "Yes. Residency applications in Panama are filed through a Panamanian attorney, so choose one before you start gathering documents."),
 ],
 "related": ["residency", "where-to-live", "housing"],
-},
-
-# ---------------------------------------------------------------- WHERE TO STAY (draft, no hotel links yet)
-{
-"slug": "where-to-stay",
-"title": "Where to Stay on a Panama Scouting Trip, Region by Region | Panama Expat Life",
-"h1": "Where to stay on your Panama scouting trip",
-"kicker": "Scouting trip",
-"description": "Where to base yourself in each part of Panama when you're scouting for a move: Panama City, the Pacific beaches, El Valle, Boquete, the Azuero Peninsula and Bocas del Toro.",
-"lead": "On a scouting trip, stay where you might actually live, not in a resort. Base yourself in the town centre or neighbourhood you're considering, book a few nights in each region on your shortlist, and choose places with a kitchen so you can shop, cook and live an ordinary day.",
-"body": """
-<h2 id="how-to-choose">How to choose a base</h2>
-<ul>
-  <li><strong>Stay in the place, not near it.</strong> A beach resort or a highway-side hotel tells you little about daily life. Pick somewhere you can walk to a grocery store, a pharmacy and a caf&eacute;.</li>
-  <li><strong>Book three or four nights per region.</strong> One night is a stopover; three or four lets you see a weekday and a weekend.</li>
-  <li><strong>Choose a kitchen when you can.</strong> An apartment or a guesthouse with a kitchen means shopping at local supermarkets and markets, which is the quickest way to test prices.</li>
-  <li><strong>Mix in a short-term rental.</strong> If a town makes your shortlist, a week in a rental there tells you more than another hotel night: water pressure, power cuts, noise and neighbours.</li>
-</ul>
-
-<h2 id="panama-city">Panama City</h2>
-<p>Most trips start and end here, and it is worth two or three nights even if you plan to live elsewhere, because it is where you'll fly, see specialists and handle paperwork.</p>
-<ul>
-  <li><strong>Casco Viejo</strong> is historic, walkable and lively, with restaurants and plazas. It is charming for a first visit but noisier and more tourist-focused than where most residents live.</li>
-  <li><strong>El Cangrejo</strong> is central, practical and walkable, close to hospitals, supermarkets and the metro. It is the best base for seeing everyday city life.</li>
-  <li><strong>Costa del Este</strong> and <strong>Punta Pacifica</strong> show modern high-rise living near the main private hospitals. They are quieter at street level and you'll mostly drive or take taxis.</li>
-</ul>
-<p><strong>Test while you're there:</strong> rush-hour traffic, the drive to the hospital you'd use, and an evening walk around the neighbourhood.</p>
-
-<h2 id="pacific-beaches">Pacific beaches</h2>
-<p>The beach towns about an hour or so west of the city along the Pan-American Highway are among the driest parts of the country and have the largest beach expat community.</p>
-<ul>
-  <li><strong>Coronado</strong> is the services hub, with supermarkets, clinics and banks. Stay inside the town rather than on the highway strip so you can judge it as a place to live.</li>
-  <li><strong>Gorgona</strong> and <strong>San Carlos</strong> are smaller and quieter, a short drive from Coronado's shops.</li>
-</ul>
-<p><strong>Test while you're there:</strong> the drive to Panama City at a busy time, weekday versus weekend crowds, and how far the nearest hospital is.</p>
-
-<h2 id="el-valle">El Valle de Ant&oacute;n</h2>
-<p>A mountain valley about two hours from the city, with cooler air and a small-town feel. Stay close to the centre and the market so you can walk, and check how you'd reach the beaches and the city for errands.</p>
-
-<h2 id="chiriqui-highlands">Boquete and the Chiriqu&iacute; highlands</h2>
-<p>Spring-like weather and Panama's best-known mountain expat community. Fly or drive to David, the provincial city, then head up into the hills.</p>
-<ul>
-  <li><strong>Boquete town centre</strong> is the easiest base: walkable, with restaurants, a supermarket and community events.</li>
-  <li><strong>Volc&aacute;n</strong> and <strong>Cerro Punta</strong> are quieter, cooler and more agricultural. Spend a night or two if Boquete feels too busy.</li>
-</ul>
-<p><strong>Test while you're there:</strong> the wind and rain in the season you visit, the drive down to David for hospitals and big shops, and how your clothes and home would cope with the damp.</p>
-
-<h2 id="azuero">Pedas&iacute; and the Azuero Peninsula</h2>
-<p>Traditional Panamanian small towns, surf beaches and a slower pace, about five hours' drive from the city. Fewer expats live here than in Boquete or Coronado, so Spanish matters more.</p>
-<ul>
-  <li><strong>Pedas&iacute;</strong> is the most popular base, with a walkable centre and beaches a short drive away.</li>
-  <li><strong>Las Tablas</strong> and <strong>Chitr&eacute;</strong> are the larger service towns, with hospitals, banks and bigger supermarkets. Spend a day in each to see what's within reach.</li>
-</ul>
-<p><strong>Test while you're there:</strong> the drive to Chitr&eacute; or Las Tablas for services, internet speed where you'd live, and how quiet the low season feels.</p>
-
-<h2 id="caribbean">Bocas del Toro</h2>
-<p>Caribbean island living, with water taxis instead of roads for many trips. Stay on <strong>Isla Col&oacute;n</strong>, the main island, to judge services and daily life, then spend a night or two on a quieter island if that's the lifestyle you're after.</p>
-<p><strong>Test while you're there:</strong> how you'd get groceries, healthcare and flights to the city, and the wetter weather, which can come in any month.</p>
-
-<h2 id="longer-stays">After the scouting trip</h2>
-<p>Once you've chosen a region, rent for six to twelve months before you buy. See <a href="/housing/">Housing</a> for how long-term rentals work, and our <a href="/free-checklist/">free move checklist</a> for what to do when.</p>
-""",
-"faq": [
-("Where should I stay on a scouting trip to Panama?",
- "Stay in the town or neighbourhood you're considering living in rather than a resort, ideally somewhere with a kitchen, and spend three or four nights in each region on your shortlist."),
-("Which Panama City neighbourhood is best for a first visit?",
- "El Cangrejo is the most practical base for seeing everyday city life, being central and walkable with hospitals and the metro nearby. Casco Viejo is more charming but noisier and more tourist-focused."),
-("How long should I stay in each region?",
- "Three or four nights per region lets you see both a weekday and a weekend. If a town makes your shortlist, follow up with a week in a short-term rental."),
-],
-"related": ["start-here", "where-to-live", "housing"],
 },
 
 # ---------------------------------------------------------------- RESIDENCY
@@ -362,7 +292,7 @@ PAGES = [
 <p>Requirements vary by bank and change over time. US citizens may find some banks more cautious because of US reporting rules. Many people find the process easier once they have residency, or with an introduction from their lawyer.</p>
 
 <h2 id="moving-money">Moving money to Panama</h2>
-<p>A traditional international wire works, but bank fees and exchange margins (if you're converting from Canadian dollars, pounds or euros) add up. Specialist currency transfer services often offer better rates for larger amounts, such as a property purchase or a residency deposit. Compare the total cost, not just the fee.</p>
+<p>A traditional international wire works, but bank fees and exchange margins (if you're converting from Canadian dollars, pounds or euros) add up. Specialist currency transfer services often offer better rates for larger amounts, such as a property purchase or a residency deposit. Compare the total cost, not just the fee. See <a href="/moving-money/">Moving money to Panama</a> for options, paperwork and how to avoid wire fraud.</p>
 
 <h2 id="tax">Tax basics</h2>
 <p>Panama uses a territorial tax system: in general, it taxes income earned in Panama, not income from abroad. That doesn't remove obligations at home. US citizens, for example, are taxed on worldwide income wherever they live, and other countries have their own residency rules. Speak to a tax adviser who understands both countries before you move.</p>
@@ -511,6 +441,343 @@ PAGES = [
  "Yes. Renting for six to twelve months lets you experience both seasons, the roads, the neighbours and the services before you commit."),
 ],
 "related": ["where-to-live", "residency", "money"],
+},
+
+# ---------------------------------------------------------------- WHERE TO STAY (draft, no hotel links yet)
+{
+"slug": "where-to-stay",
+"title": "Where to Stay on a Panama Scouting Trip, Region by Region | Panama Expat Life",
+"h1": "Where to stay on your Panama scouting trip",
+"kicker": "Scouting trip",
+"description": "Where to base yourself in each part of Panama when you're scouting for a move: Panama City, the Pacific beaches, El Valle, Boquete, the Azuero Peninsula and Bocas del Toro.",
+"lead": "On a scouting trip, stay where you might actually live, not in a resort. Base yourself in the town centre or neighbourhood you're considering, book a few nights in each region on your shortlist, and choose places with a kitchen so you can shop, cook and live an ordinary day.",
+"body": """
+<h2 id="how-to-choose">How to choose a base</h2>
+<ul>
+  <li><strong>Stay in the place, not near it.</strong> A beach resort or a highway-side hotel tells you little about daily life. Pick somewhere you can walk to a grocery store, a pharmacy and a caf&eacute;.</li>
+  <li><strong>Book three or four nights per region.</strong> One night is a stopover; three or four lets you see a weekday and a weekend.</li>
+  <li><strong>Choose a kitchen when you can.</strong> An apartment or a guesthouse with a kitchen means shopping at local supermarkets and markets, which is the quickest way to test prices.</li>
+  <li><strong>Mix in a short-term rental.</strong> If a town makes your shortlist, a week in a rental there tells you more than another hotel night: water pressure, power cuts, noise and neighbours.</li>
+</ul>
+
+<h2 id="panama-city">Panama City</h2>
+<p>Most trips start and end here, and it is worth two or three nights even if you plan to live elsewhere, because it is where you'll fly, see specialists and handle paperwork.</p>
+<ul>
+  <li><strong>Casco Viejo</strong> is historic, walkable and lively, with restaurants and plazas. It is charming for a first visit but noisier and more tourist-focused than where most residents live.</li>
+  <li><strong>El Cangrejo</strong> is central, practical and walkable, close to hospitals, supermarkets and the metro. It is the best base for seeing everyday city life.</li>
+  <li><strong>Costa del Este</strong> and <strong>Punta Pacifica</strong> show modern high-rise living near the main private hospitals. They are quieter at street level and you'll mostly drive or take taxis.</li>
+</ul>
+<p><strong>Test while you're there:</strong> rush-hour traffic, the drive to the hospital you'd use, and an evening walk around the neighbourhood.</p>
+
+<h2 id="pacific-beaches">Pacific beaches</h2>
+<p>The beach towns about an hour or so west of the city along the Pan-American Highway are among the driest parts of the country and have the largest beach expat community.</p>
+<ul>
+  <li><strong>Coronado</strong> is the services hub, with supermarkets, clinics and banks. Stay inside the town rather than on the highway strip so you can judge it as a place to live.</li>
+  <li><strong>Gorgona</strong> and <strong>San Carlos</strong> are smaller and quieter, a short drive from Coronado's shops.</li>
+</ul>
+<p><strong>Test while you're there:</strong> the drive to Panama City at a busy time, weekday versus weekend crowds, and how far the nearest hospital is.</p>
+
+<h2 id="el-valle">El Valle de Ant&oacute;n</h2>
+<p>A mountain valley about two hours from the city, with cooler air and a small-town feel. Stay close to the centre and the market so you can walk, and check how you'd reach the beaches and the city for errands.</p>
+
+<h2 id="chiriqui-highlands">Boquete and the Chiriqu&iacute; highlands</h2>
+<p>Spring-like weather and Panama's best-known mountain expat community. Fly or drive to David, the provincial city, then head up into the hills.</p>
+<ul>
+  <li><strong>Boquete town centre</strong> is the easiest base: walkable, with restaurants, a supermarket and community events.</li>
+  <li><strong>Volc&aacute;n</strong> and <strong>Cerro Punta</strong> are quieter, cooler and more agricultural. Spend a night or two if Boquete feels too busy.</li>
+</ul>
+<p><strong>Test while you're there:</strong> the wind and rain in the season you visit, the drive down to David for hospitals and big shops, and how your clothes and home would cope with the damp.</p>
+
+<h2 id="azuero">Pedas&iacute; and the Azuero Peninsula</h2>
+<p>Traditional Panamanian small towns, surf beaches and a slower pace, about five hours' drive from the city. Fewer expats live here than in Boquete or Coronado, so Spanish matters more.</p>
+<ul>
+  <li><strong>Pedas&iacute;</strong> is the most popular base, with a walkable centre and beaches a short drive away.</li>
+  <li><strong>Las Tablas</strong> and <strong>Chitr&eacute;</strong> are the larger service towns, with hospitals, banks and bigger supermarkets. Spend a day in each to see what's within reach.</li>
+</ul>
+<p><strong>Test while you're there:</strong> the drive to Chitr&eacute; or Las Tablas for services, internet speed where you'd live, and how quiet the low season feels.</p>
+
+<h2 id="caribbean">Bocas del Toro</h2>
+<p>Caribbean island living, with water taxis instead of roads for many trips. Stay on <strong>Isla Col&oacute;n</strong>, the main island, to judge services and daily life, then spend a night or two on a quieter island if that's the lifestyle you're after.</p>
+<p><strong>Test while you're there:</strong> how you'd get groceries, healthcare and flights to the city, and the wetter weather, which can come in any month.</p>
+
+<h2 id="longer-stays">After the scouting trip</h2>
+<p>Once you've chosen a region, rent for six to twelve months before you buy. See <a href="/housing/">Housing</a> for how long-term rentals work, and our <a href="/free-checklist/">free move checklist</a> for what to do when.</p>
+""",
+"faq": [
+("Where should I stay on a scouting trip to Panama?",
+ "Stay in the town or neighbourhood you're considering living in rather than a resort, ideally somewhere with a kitchen, and spend three or four nights in each region on your shortlist."),
+("Which Panama City neighbourhood is best for a first visit?",
+ "El Cangrejo is the most practical base for seeing everyday city life, being central and walkable with hospitals and the metro nearby. Casco Viejo is more charming but noisier and more tourist-focused."),
+("How long should I stay in each region?",
+ "Three or four nights per region lets you see both a weekday and a weekend. If a town makes your shortlist, follow up with a week in a short-term rental."),
+],
+"related": ["start-here", "where-to-live", "housing"],
+},
+
+# ---------------------------------------------------------------- RENTING A CAR
+# AFFILIATE: add the DiscoverCars link (Travelpayouts) where marked once approved.
+{
+"slug": "renting-a-car",
+"title": "Renting a Car in Panama: Insurance, Tolls and Driving Tips | Panama Expat Life",
+"h1": "Renting a car in Panama",
+"kicker": "Getting around",
+"description": "What to know before renting a car in Panama: the mandatory liability insurance that isn't in most online quotes, licences, tolls, police checkpoints and road conditions.",
+"lead": "Renting a car is the easiest way to compare towns outside Panama City. Visitors can drive on a valid foreign licence for up to 90 days, but budget for the mandatory third-party liability insurance, which is often left out of the cheap daily rates you see online, and for a security hold on a credit card.",
+"body": """
+<h2 id="insurance">The insurance surprise</h2>
+<p>Third-party liability insurance is mandatory in Panama and is usually sold at the rental counter. Many online quotes don't include it, so the price you pay at pickup can be several times the daily rate you booked. When you compare companies, compare the total with liability insurance included.</p>
+<ul>
+  <li><strong>Liability insurance</strong> covers damage or injury you cause to others. It's required by law, and most companies won't let you replace it with credit card coverage.</li>
+  <li><strong>Collision damage cover</strong> for the rental car itself is where your credit card may help. Ask your card issuer for a letter confirming the cover applies in Panama and bring it with you. Expect a larger hold on your card if you decline the company's own cover.</li>
+  <li><strong>Read what's excluded.</strong> Tires, glass and the underside of the car are often excluded unless you buy extra cover.</li>
+</ul>
+<!-- AFFILIATE: DiscoverCars, "compare total prices including insurance" -->
+
+<h2 id="what-you-need">What you need to rent</h2>
+<ul>
+  <li><strong>A valid driver's licence</strong> from home. Visitors can drive on it for up to 90 days; residents need a Panamanian licence.</li>
+  <li><strong>Your passport</strong>, with the entry stamp you received on arrival.</li>
+  <li><strong>A credit card in the driver's name.</strong> Most companies won't accept debit or prepaid cards for the security deposit, and holds can run from a few hundred dollars to several thousand.</li>
+  <li><strong>Age.</strong> The minimum is usually 21, with a young-driver surcharge under 25 and some car classes limited to drivers over 25.</li>
+</ul>
+<p>You can't take a Panamanian rental car across the border into Costa Rica.</p>
+
+<h2 id="pickup">Where to pick up</h2>
+<p>Panama City traffic is heavy and the road layout is confusing for newcomers, so if you're spending your first days in the city, use taxis or ride-hailing there and collect the car when you leave. If you're heading straight west to the beaches or the highlands, picking up at Tocumen airport avoids crossing the city twice. One-way rentals, such as collecting in Panama City and returning in David, are often possible but may carry a fee.</p>
+<p>At pickup, photograph or film every side of the car, the interior, the fuel gauge and the odometer, and make sure existing damage is marked on the form.</p>
+
+<h2 id="tolls">Tolls and the Panapass</h2>
+<p>The main toll expressways in and around Panama City, the Corredor Sur and Corredor Norte, take payment only by Panapass, an electronic windshield sticker. Most rental cars already have one, and the company will offer a daily toll package or charge you per use. Outside the city, the main highways to the Pacific beaches, Chiriqu&iacute; and the Azuero Peninsula are toll-free.</p>
+
+<h2 id="on-the-road">On the road</h2>
+<ul>
+  <li><strong>Police checkpoints</strong> are common, especially on the Pan-American Highway. Slow down, be polite and have your passport, licence and the rental papers ready.</li>
+  <li><strong>Drive in daylight.</strong> It gets dark around 6:30 pm all year, and rural roads are often unlit, with potholes, pedestrians, animals and slow trucks.</li>
+  <li><strong>Speed limits change often</strong>, sometimes with little warning, and speed checks are common. Fines are paid at a transit authority office, not to the officer.</li>
+  <li><strong>Use Waze or Google Maps.</strong> Waze is widely used in Panama and flags police and hazards reported by other drivers.</li>
+  <li><strong>Don't drink and drive at all</strong>, keep your phone out of your hand, and wear your seat belt.</li>
+  <li><strong>Fuel up</strong> before long stretches in the interior, where stations can be far apart.</li>
+  <li><strong>Leave nothing visible</strong> in a parked car.</li>
+</ul>
+
+<h2 id="four-by-four">Do you need a 4x4?</h2>
+<p>Not for the main towns. The roads to Coronado, El Valle, Boquete and Pedas&iacute; are paved. A car with higher clearance helps if you plan to look at land, beaches or farms down dirt roads, especially in the rainy season. For Bocas del Toro you don't need a car on the islands at all: you can leave it on the mainland or, more simply, fly.</p>
+
+<h2 id="accidents">If something goes wrong</h2>
+<p>In an accident, don't move the car unless it's dangerous to leave it. Call the police and the rental company's emergency number, wait for the police report (it can take a while), and take your own photos. The insurance claim usually depends on that report.</p>
+""",
+"faq": [
+("Can I drive in Panama with a Canadian or US licence?",
+ "Yes. Visitors can drive on a valid foreign licence for up to 90 days. Carry your passport with your entry stamp as well, because police checkpoints are common. Residents need a Panamanian licence."),
+("Why is renting a car in Panama more expensive than the online quote?",
+ "Third-party liability insurance is mandatory in Panama and is often sold at the rental counter rather than included in online quotes. Compare total prices with liability insurance included."),
+("Does my credit card's rental insurance work in Panama?",
+ "It may cover damage to the rental car, but it usually can't replace Panama's mandatory liability insurance. Get a letter from your card issuer confirming cover in Panama and expect a larger security hold if you decline the rental company's damage cover."),
+],
+"related": ["start-here", "where-to-stay", "flying-to-panama"],
+},
+
+# ---------------------------------------------------------------- TRAVEL INSURANCE
+# AFFILIATE: add VisitorsCoverage / Insubuy (Travelpayouts) where marked once approved.
+{
+"slug": "travel-insurance",
+"title": "Travel Insurance for a Panama Scouting Trip | Panama Expat Life",
+"h1": "Travel insurance for your scouting trip",
+"kicker": "Scouting trip",
+"description": "Why you need travel medical insurance for a Panama scouting trip, what your home health plan won't cover, and what to check in a policy before you buy.",
+"lead": "Buy travel medical insurance before a scouting trip to Panama. Canadian provincial health plans pay only a small share of emergency costs abroad, Medicare generally doesn't cover care outside the US, and private hospitals in Panama may expect payment or an insurance guarantee before treating you.",
+"body": """
+<h2 id="why">Why your home coverage isn't enough</h2>
+<ul>
+  <li><strong>Canadians:</strong> provincial health plans cover emergency care abroad only up to their own low rates, typically a small fraction of the real bill. Ambulances, medical evacuation and prescriptions are often not covered at all.</li>
+  <li><strong>Americans:</strong> Original Medicare usually doesn't cover care outside the US. Some Medicare supplement (Medigap) plans include limited foreign emergency cover; check yours. Private US health plans vary, so ask your insurer what they pay in Panama.</li>
+  <li><strong>UK travellers:</strong> the Global Health Insurance Card doesn't apply in Panama.</li>
+</ul>
+<p>Private hospitals in Panama City are good and cheaper than in North America, but a serious illness or injury can still cost tens of thousands of dollars, and you may be asked to pay or show proof of insurance up front.</p>
+
+<h2 id="what-to-check">What to check in a policy</h2>
+<ul>
+  <li><strong>Emergency medical limit.</strong> Look for a high limit, and check whether the insurer pays the hospital directly or reimburses you later.</li>
+  <li><strong>Medical evacuation and repatriation.</strong> If you're in Bocas del Toro, the Azuero or the highlands, getting to a major hospital, or home, can be the most expensive part.</li>
+  <li><strong>Pre-existing conditions.</strong> Many policies exclude them unless they've been stable for a set period before you travel. Answer the medical questions honestly; a wrong answer can void the policy.</li>
+  <li><strong>Activities.</strong> Surfing, diving, zip-lining and hiking volcanoes may need to be added.</li>
+  <li><strong>Trip length and age limits.</strong> Make sure the policy covers your whole trip, including any extension, and check age limits on credit card travel insurance, which are often lower than people expect.</li>
+  <li><strong>Trip cancellation and interruption</strong> are optional. They're worth considering if you've prepaid flights and rentals you can't get back.</li>
+</ul>
+<!-- AFFILIATE: VisitorsCoverage / Insubuy comparison link -->
+
+<h2 id="when-to-buy">When to buy</h2>
+<p>Buy before you leave home. Many policies, especially Canadian ones, can't be bought once you've already left, and cancellation cover usually only applies if you buy it soon after booking.</p>
+
+<h2 id="after-you-move">After you move</h2>
+<p>Travel insurance is meant for trips, not for living in Panama. Once you move, you'll need local or international health insurance instead. See <a href="/healthcare/">Healthcare</a> for how those compare. Canadians should also check how long they can be away before losing provincial coverage, which affects when to switch.</p>
+""",
+"faq": [
+("Do I need travel insurance to visit Panama?",
+ "It isn't a general entry requirement for Canadian, US or UK visitors, but you should have it. Home health plans cover little or nothing in Panama, and private hospitals may want payment or an insurance guarantee before treatment."),
+("Does Medicare cover me in Panama?",
+ "Generally no. Original Medicare covers care outside the US only in rare cases. Some Medigap plans include limited foreign emergency cover, so check your plan and buy travel medical insurance for the gap."),
+("Can I use travel insurance after I move to Panama?",
+ "No. Travel insurance covers trips, not living abroad. Once you move, switch to local Panamanian or international health insurance."),
+],
+"related": ["start-here", "healthcare", "where-to-stay"],
+},
+
+# ---------------------------------------------------------------- MOVING MONEY
+# AFFILIATE: add Wise (Partnerize) and Xe (Impact) where marked once approved.
+{
+"slug": "moving-money",
+"title": "Moving Money to Panama: Wires, Transfer Services and Fees | Panama Expat Life",
+"h1": "Moving money to Panama",
+"kicker": "Money",
+"description": "How to move money to Panama for a rental deposit, residency or a property purchase: bank wires vs transfer services, source-of-funds paperwork, fees and avoiding wire fraud.",
+"lead": "Panama uses the US dollar, so the cost of moving money is mostly in currency conversion and wire fees. For larger sums, compare a bank wire with a specialist transfer service on the total cost, keep records of where the money came from, and confirm payment details by phone before you send anything.",
+"body": """
+<h2 id="what-it-costs">Where the cost is</h2>
+<p>If your money is already in US dollars, sending it to Panama is a straightforward international wire, with fees at both ends and sometimes from an intermediary bank in between. If it's in Canadian dollars, pounds or euros, the exchange rate matters far more than the fee: a margin of a few percent on a large transfer can cost more than everything else combined.</p>
+
+<h2 id="options">Your options</h2>
+<table>
+  <caption>Ways to move money to Panama</caption>
+  <thead><tr><th scope="col">Option</th><th scope="col">Good for</th><th scope="col">Watch for</th></tr></thead>
+  <tbody>
+    <tr><th scope="row">Bank wire from home</th><td>Simple, familiar, high limits</td><td>Exchange margins, outgoing and incoming fees, intermediary bank deductions</td></tr>
+    <tr><th scope="row">Specialist transfer service</th><td>Converting currency at a better rate, especially for larger amounts</td><td>Transfer limits, how long the money takes to arrive, whether the receiving bank asks questions</td></tr>
+    <tr><th scope="row">ATM withdrawals</th><td>Day-to-day cash while you settle in</td><td>Fees from both banks and daily limits</td></tr>
+    <tr><th scope="row">Credit card</th><td>Everyday spending in cities</td><td>Foreign transaction fees on many cards</td></tr>
+  </tbody>
+</table>
+<!-- AFFILIATE: Wise and Xe links, "compare a specialist transfer service" -->
+
+<h2 id="paperwork">Source-of-funds paperwork</h2>
+<p>Panamanian banks and lawyers follow strict anti-money-laundering rules. For any large amount, such as a residency deposit or a property purchase, expect to show where the money came from. Keep these ready:</p>
+<ul>
+  <li>Bank statements showing the funds in your account</li>
+  <li>Documents for where they came from, such as a home sale, a pension or investment statements, or an inheritance</li>
+  <li>Recent tax returns, which some banks ask for</li>
+</ul>
+<p>Your lawyer will tell you exactly what's needed. Sorting it out before you send means the money isn't held up when it arrives.</p>
+
+<h2 id="before-a-local-account">Before you have a Panamanian bank account</h2>
+<p>Opening a local account can take weeks, so the first large payments usually go elsewhere. Rental deposits are often paid by wire to the landlord or agent, and property deposits are commonly held by a lawyer or escrow agent. Ask who holds the money, and on what conditions it's released, before you pay. See <a href="/money/">Banking and money</a> for how to open an account.</p>
+
+<h2 id="fraud">Avoid wire fraud</h2>
+<ul>
+  <li><strong>Confirm payment details by phone</strong> with someone you know, using a number you already have, never one from the email.</li>
+  <li><strong>Be suspicious of any change</strong> to bank details sent by email, especially at the last minute.</li>
+  <li><strong>Send a small test payment first</strong> and confirm it arrived before sending the rest.</li>
+</ul>
+
+<h2 id="everyday">Everyday money once you're here</h2>
+<ul>
+  <li><strong>Keep your home bank accounts open.</strong> You'll need them for pensions, taxes and paying bills at home.</li>
+  <li><strong>Carry a card with no foreign transaction fees</strong> and tell your bank you're in Panama.</li>
+  <li><strong>Carry small bills.</strong> Many small shops can't change a $50 or $100 note, and cash is still common outside Panama City.</li>
+</ul>
+""",
+"faq": [
+("What is the cheapest way to send money to Panama?",
+ "It depends on the amount and currency. If you're converting from Canadian dollars, pounds or euros, a specialist transfer service often beats a bank's exchange rate. Compare the total amount that arrives, not just the fee."),
+("Do I need to prove where my money came from?",
+ "For large amounts, usually yes. Panamanian banks and lawyers ask for bank statements and documents showing the source of the funds, such as a home sale or pension statements."),
+("Can I send money to Panama before I have a local bank account?",
+ "Yes. Early payments such as rental or property deposits are often wired to a landlord, lawyer or escrow agent. Confirm who holds the money and the release conditions before you pay."),
+],
+"related": ["money", "residency", "housing"],
+},
+
+# ---------------------------------------------------------------- PHONES AND INTERNET
+{
+"slug": "phones-and-internet",
+"title": "Phones and Internet in Panama: SIM Cards, eSIMs and Home Internet | Panama Expat Life",
+"h1": "Phones and internet in Panama",
+"kicker": "Getting connected",
+"description": "How to get a phone plan and internet in Panama: travel eSIMs, local SIM cards from Tigo and +M&oacute;vil, home internet, Starlink in rural areas, and WhatsApp.",
+"lead": "For a scouting trip, a travel eSIM gives you data the moment you land. Once you're living here, a local prepaid or postpaid plan from Panama's two mobile carriers, Tigo and +M&oacute;vil, is cheaper. In cities you can get fibre or cable internet at home; in rural areas, Starlink is an option.",
+"body": """
+<h2 id="esim">Scouting trip: a travel eSIM</h2>
+<p>An eSIM is set up on your phone before you leave, so you have maps, ride-hailing and WhatsApp as soon as you land, without hunting for a SIM shop. Check that your phone is unlocked and supports eSIM, buy a Panama plan such as <a href="https://airalo.tpx.lu/A0bmF3qo" rel="sponsored nofollow noopener" target="_blank">Airalo</a> (affiliate link) before you fly, and switch it on when you arrive. Keep your home SIM active for bank security codes sent by text.</p>
+
+<h2 id="local-sim">Living here: a local SIM</h2>
+<p>Panama has two mobile carriers, Tigo and +M&oacute;vil (Cable &amp; Wireless). Both sell cheap prepaid plans and monthly contracts. Coverage is good in cities and towns but patchy in the mountains, on remote beaches and on some islands, so ask neighbours which network works best where you plan to live. Bring your passport when you buy a SIM.</p>
+<p>+M&oacute;vil has begun offering satellite messaging on some phones in areas with no signal. It's limited to messaging and a few apps for now, but useful in remote places.</p>
+
+<h2 id="whatsapp">WhatsApp runs everything</h2>
+<p>Almost everyone in Panama, from landlords and lawyers to doctors and the local hardware store, uses WhatsApp. Set it up before you arrive and keep the same number if you can, so your contacts don't change when you switch SIMs.</p>
+
+<h2 id="home-internet">Home internet</h2>
+<ul>
+  <li><strong>Cities and larger towns</strong> generally have fibre or cable internet from the same two companies, fast enough for video calls and streaming.</li>
+  <li><strong>Rural areas</strong> may have only slow wireless service or none at all. Starlink satellite internet is available in Panama and is a common fix where nothing else reaches.</li>
+  <li><strong>Test before you sign a lease.</strong> If you work online, run a speed test at the property at a busy time of day, and ask what happens during power cuts.</li>
+</ul>
+""",
+"faq": [
+("Which mobile carrier is best in Panama?",
+ "Panama has two carriers, Tigo and +M&oacute;vil. Both cover cities and towns well; in rural areas coverage varies, so ask locals which network works best where you'll be."),
+("Should I get an eSIM or a local SIM for a trip to Panama?",
+ "For a short trip, a travel eSIM is the easiest option because it works the moment you land. For longer stays, a local prepaid plan is usually cheaper."),
+("Can I get good internet in rural Panama?",
+ "Sometimes. Towns often have fibre or cable; more remote homes may rely on Starlink satellite internet. Test the connection before signing a lease if you work online."),
+],
+"related": ["start-here", "where-to-live", "housing"],
+},
+
+# ---------------------------------------------------------------- FLYING TO PANAMA
+# AFFILIATE: add a flight search link (Travelpayouts) where marked once approved.
+{
+"slug": "flying-to-panama",
+"title": "Flying to Panama: Airports, Direct Flights and Getting Around | Panama Expat Life",
+"h1": "Flying to Panama",
+"kicker": "Getting around",
+"description": "Flying to Panama from Canada, the US and the UK: Tocumen airport, direct routes, domestic flights to David and Bocas del Toro, entry rules and getting from the airport.",
+"lead": "Most international flights land at Tocumen International Airport outside Panama City, the hub of Copa Airlines, with direct flights from many US cities and from Toronto, Montr&eacute;al and, seasonally, Calgary. From the city, domestic flights reach David (for Boquete) and Bocas del Toro, and the Pacific beaches and the Azuero are an easy drive.",
+"body": """
+<h2 id="airports">Panama's main airports</h2>
+<ul>
+  <li><strong>Tocumen International (PTY)</strong>, east of Panama City, handles almost all international flights.</li>
+  <li><strong>Albrook (PAC)</strong>, in the city, is the main domestic airport, with flights to David, Bocas del Toro, Changuinola and Chitr&eacute;.</li>
+  <li><strong>R&iacute;o Hato (RIH)</strong>, near the Pacific beaches, gets seasonal winter flights from Toronto and Montr&eacute;al, mostly for beach resorts. It's handy for Coronado and the beaches if the dates work.</li>
+  <li><strong>David (DAV)</strong> serves Boquete and the rest of Chiriqu&iacute;.</li>
+</ul>
+
+<h2 id="direct-flights">Direct flights</h2>
+<p>Copa flies nonstop to Panama City from a long list of US cities, and US airlines add more. From Canada there are direct flights from Toronto and Montr&eacute;al, with seasonal winter service from Calgary. From the UK and Europe you'll usually connect, either through a US hub or on a direct flight from cities such as Madrid or Amsterdam. Because Tocumen is a hub, Panama is also easy to reach from most of Latin America.</p>
+<!-- AFFILIATE: flight search link -->
+
+<h2 id="entry">Entry rules</h2>
+<p>Canadian, US and UK citizens don't need a visa for a tourist visit. Bring a passport valid for at least six months beyond your stay and a return or onward ticket, and be ready to show you can support yourself during your visit. The length of stay you're allowed is set by immigration on arrival, so check your entry stamp. If you're bringing a pet, see <a href="/moving/">Moving</a>.</p>
+
+<h2 id="from-the-airport">Getting from Tocumen into the city</h2>
+<ul>
+  <li><strong>Official airport taxis</strong> charge a fixed fare agreed before you set off, usually around $30 to $40 to the centre.</li>
+  <li><strong>Uber</strong> is usually cheaper. Pickups are from a designated area, not the arrivals door, and you'll need data, so set up your <a href="/phones-and-internet/">eSIM</a> before you fly.</li>
+  <li><strong>The metro</strong> has an airport branch on Line 2. It's by far the cheapest option but slow, with a transfer, and awkward with big bags.</li>
+  <li><strong>Rental cars</strong> can be collected at the airport. See <a href="/renting-a-car/">Renting a car</a>.</li>
+</ul>
+
+<h2 id="getting-around">Reaching the regions</h2>
+<table>
+  <caption>Getting from Panama City to the main regions</caption>
+  <thead><tr><th scope="col">Region</th><th scope="col">Best way</th></tr></thead>
+  <tbody>
+    <tr><th scope="row">Pacific beaches (Coronado)</th><td>Drive or bus along the Pan-American Highway, roughly an hour or so depending on traffic</td></tr>
+    <tr><th scope="row">El Valle de Ant&oacute;n</th><td>Drive or bus, about two hours</td></tr>
+    <tr><th scope="row">Boquete</th><td>Fly to David, then drive or bus up to Boquete; or drive the whole way in about seven hours</td></tr>
+    <tr><th scope="row">Pedas&iacute; and the Azuero</th><td>Drive, about five hours; Chitr&eacute; has domestic flights</td></tr>
+    <tr><th scope="row">Bocas del Toro</th><td>Fly from Albrook to Isla Col&oacute;n</td></tr>
+  </tbody>
+</table>
+""",
+"faq": [
+("Which airport do I fly into for Panama?",
+ "Most international flights land at Tocumen International Airport (PTY) outside Panama City. Domestic flights to David and Bocas del Toro leave from Albrook, the city's domestic airport."),
+("Are there direct flights from Canada to Panama?",
+ "Yes. There are direct flights from Toronto and Montr&eacute;al to Panama City, seasonal winter flights from Calgary, and seasonal flights from Toronto and Montr&eacute;al to R&iacute;o Hato near the Pacific beaches."),
+("Do I need a visa to visit Panama?",
+ "Canadian, US and UK citizens don't need a visa for a tourist visit. Bring a passport valid for at least six months and a return or onward ticket, and check the length of stay on your entry stamp."),
+],
+"related": ["start-here", "renting-a-car", "where-to-stay"],
 },
 ]
 
