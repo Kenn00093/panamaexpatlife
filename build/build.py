@@ -69,6 +69,18 @@ def layout(*, path, title, description, body, current="", schema=None, og_type="
         '<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">'
     # Impact.com (affiliate network) site verification, homepage only
     verify = "<meta name='impact-site-verification' value='b0d95ea4-9ee7-4595-a4f1-52f46f5ef2b8'>\n" if path == "/" else ""
+    # TEMPORARY: Travelpayouts Drive script, homepage only, to pass account onboarding. Remove once verified.
+    if path == "/":
+        verify += """<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
+  (function () {
+      var script = document.createElement("script");
+      script.async = 1;
+      script.setAttribute("data-cmp-ab","2");
+      script.src = 'https://emrldtp.cc/NTkyMDgw.js?t=592080';
+      document.head.appendChild(script);
+  })();
+</script>
+"""
     schema_html = ld({"@context": "https://schema.org", "@graph": [ORG, WEBSITE] + (schema or [])})
     return f"""<!doctype html>
 <html lang="{LANG}">
