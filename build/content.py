@@ -468,7 +468,7 @@ CHECKLIST = [
 ]),
 ("First week in Panama", [
   "Meet your lawyer and start your residency filing.",
-  "Get a local SIM card.",
+  "Get a local SIM card, or set up a travel eSIM such as <a href=\"https://airalo.tpx.lu/A0bmF3qo\" rel=\"sponsored nofollow noopener\" target=\"_blank\">Airalo</a> (affiliate link) before you fly, so you have data the moment you land.",
   "Find your nearest pharmacy, clinic and hospital.",
   "Begin the bank account application.",
 ]),
