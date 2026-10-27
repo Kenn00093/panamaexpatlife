@@ -9,3 +9,7 @@
 
 /*.svg
   Cache-Control: public, max-age=86400
+
+/downloads/*
+  X-Robots-Tag: noindex
+  Cache-Control: public, max-age=86400

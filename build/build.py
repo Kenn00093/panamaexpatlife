@@ -321,8 +321,9 @@ def checklist_page():
     if KIT_FORM_ID:
         form = f"""
       <form class="signup" action="https://app.kit.com/forms/{KIT_FORM_ID}/subscriptions" method="post">
-        <label for="email">Email address</label>
+        <label for="first-name">Get the printable checklist by email</label>
         <div class="signup-row">
+          <input id="first-name" name="fields[first_name]" type="text" autocomplete="given-name" placeholder="First name" aria-label="First name">
           <input id="email" name="email_address" type="email" autocomplete="email" required placeholder="you@example.com">
           <button class="btn" type="submit">Send me the checklist</button>
         </div>
@@ -504,6 +505,10 @@ HEADERS = """/*
   Cache-Control: public, max-age=86400
 
 /*.svg
+  Cache-Control: public, max-age=86400
+
+/downloads/*
+  X-Robots-Tag: noindex
   Cache-Control: public, max-age=86400
 """
 

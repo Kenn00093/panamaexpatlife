@@ -10,7 +10,7 @@ LAST_CHECKED_HUMAN = "October 2026"
 # Kit (kit.com) form ID for the free checklist sign-up.
 # Leave empty until the Kit form exists; the page then shows a "sign-up opens soon" note
 # instead of a form that goes nowhere. The checklist itself is always visible as text.
-KIT_FORM_ID = ""
+KIT_FORM_ID = "10104929"
 
 PANAMA_PROPERTIES_URL = "https://www.panama-properties.com"
 PANAMA_PROPERTIES_BUY_URL = "https://www.panama-properties.com/client-contact-form"
