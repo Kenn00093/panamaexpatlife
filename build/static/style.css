@@ -80,7 +80,7 @@ h3 { font-size: 1.2rem; margin: 1.4em 0 0.4em; }
 
 /* Hero photos */
 .hero-photos { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; background: var(--ink); }
-.hero-photo { position: relative; margin: 0; aspect-ratio: 16 / 10; max-height: 460px; overflow: hidden; }
+.hero-photo { position: relative; margin: 0; height: clamp(220px, 30vw, 440px); overflow: hidden; }
 .hero-photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
 .hero-photo figcaption {
   position: absolute; inset: auto 0 0 0; display: flex; justify-content: space-between; align-items: flex-end; gap: 12px;
@@ -91,7 +91,7 @@ h3 { font-size: 1.2rem; margin: 1.4em 0 0.4em; }
 .photo-credit a { color: #fff; }
 @media (max-width: 700px) {
   .hero-photos { grid-template-columns: 1fr; }
-  .hero-photo { aspect-ratio: 16 / 9; }
+  .hero-photo { height: auto; aspect-ratio: 16 / 9; }
 }
 
 /* Hero */
