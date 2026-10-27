@@ -696,7 +696,7 @@ PAGES = [
 "lead": "For a scouting trip, a travel eSIM gives you data the moment you land. Once you're living here, a local prepaid or postpaid plan from Panama's two mobile carriers, Tigo and +M&oacute;vil, is cheaper. In cities you can get fibre or cable internet at home; in rural areas, Starlink is an option.",
 "body": """
 <h2 id="esim">Scouting trip: a travel eSIM</h2>
-<p>An eSIM is set up on your phone before you leave, so you have maps, ride-hailing and WhatsApp as soon as you land, without hunting for a SIM shop. Check that your phone is unlocked and supports eSIM, buy a Panama plan such as <a href="https://airalo.tpx.lu/A0bmF3qo" rel="sponsored nofollow noopener" target="_blank">Airalo</a> (affiliate link) before you fly, and switch it on when you arrive. Keep your home SIM active for bank security codes sent by text.</p>
+<p>An eSIM is set up on your phone before you leave, so you have maps, ride-hailing and WhatsApp as soon as you land, without hunting for a SIM shop. Check that your phone is unlocked and supports eSIM, buy a Panama plan from a provider such as <a href="https://airalo.tpx.lu/A0bmF3qo" rel="sponsored nofollow noopener" target="_blank">Airalo</a> or <a href="https://saily.tpx.lu/zDFW3eir" rel="sponsored nofollow noopener" target="_blank">Saily</a> (affiliate links) before you fly, and switch it on when you arrive. Keep your home SIM active for bank security codes sent by text.</p>
 
 <h2 id="local-sim">Living here: a local SIM</h2>
 <p>Panama has two mobile carriers, Tigo and +M&oacute;vil (Cable &amp; Wireless). Both sell cheap prepaid plans and monthly contracts. Coverage is good in cities and towns but patchy in the mountains, on remote beaches and on some islands, so ask neighbours which network works best where you plan to live. Bring your passport when you buy a SIM.</p>
@@ -752,9 +752,13 @@ PAGES = [
 <ul>
   <li><strong>Official airport taxis</strong> charge a fixed fare agreed before you set off, usually around $30 to $40 to the centre.</li>
   <li><strong>Uber</strong> is usually cheaper. Pickups are from a designated area, not the arrivals door, and you'll need data, so set up your <a href="/phones-and-internet/">eSIM</a> before you fly.</li>
+  <li><strong>A pre-booked transfer</strong> costs more than Uber but a driver meets you in arrivals at a fixed price, which helps after a late flight or with lots of luggage. <a href="https://kiwitaxi.tpx.lu/ImrsLPQm" rel="sponsored nofollow noopener" target="_blank">Kiwitaxi</a> (affiliate link) takes bookings from Tocumen to Panama City and beyond.</li>
   <li><strong>The metro</strong> has an airport branch on Line 2. It's by far the cheapest option but slow, with a transfer, and awkward with big bags.</li>
   <li><strong>Rental cars</strong> can be collected at the airport. See <a href="/renting-a-car/">Renting a car</a>.</li>
 </ul>
+
+<h2 id="delays">If your flight is delayed or cancelled</h2>
+<p>Depending on the airline and route, passenger rules in Canada, the EU and the UK can entitle you to compensation for long delays, cancellations or being bumped from an overbooked flight, sometimes years after the trip. You can claim from the airline yourself for free. A claims service such as <a href="https://airhelp.tpx.lu/cc7eRN6U" rel="sponsored nofollow noopener" target="_blank">AirHelp</a> (affiliate link) checks whether you qualify and handles the claim for a share of any payout.</p>
 
 <h2 id="getting-around">Reaching the regions</h2>
 <table>
