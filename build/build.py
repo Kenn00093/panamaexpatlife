@@ -67,13 +67,15 @@ def layout(*, path, title, description, body, current="", schema=None, og_type="
     url = SITE_URL + path
     robots = '<meta name="robots" content="noindex">' if noindex else \
         '<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">'
+    # Impact.com (affiliate network) site verification, homepage only
+    verify = "<meta name='impact-site-verification' value='b0d95ea4-9ee7-4595-a4f1-52f46f5ef2b8'>\n" if path == "/" else ""
     schema_html = ld({"@context": "https://schema.org", "@graph": [ORG, WEBSITE] + (schema or [])})
     return f"""<!doctype html>
 <html lang="{LANG}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{title}</title>
+{verify}<title>{title}</title>
 <meta name="description" content="{description}">
 {robots}
 <link rel="canonical" href="{url}">
