@@ -40,7 +40,7 @@ ORG = {
     "@id": SITE_URL + "/#organization",
     "name": SITE_NAME,
     "url": SITE_URL + "/",
-    "logo": SITE_URL + "/logo.png",
+    "logo": SITE_URL + "/brand/logo-round-cream-512.png",
     "description": SITE_TAGLINE,
     "areaServed": {"@type": "Country", "name": "Panama"},
 }
@@ -103,7 +103,7 @@ def layout(*, path, title, description, body, current="", schema=None, og_type="
 <header class="site-header">
   <div class="wrap header-inner">
     <a class="brand" href="/" aria-label="{SITE_NAME} home">
-      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="13" r="7" fill="var(--sun)"/><path d="M2 22c4-3 8-3 12 0s8 3 12 0 4-2 4-2v8H2z" fill="var(--sea)"/></svg>
+      <img class="brand-mark" src="/brand/mark-suitcase.svg" width="40" height="40" alt="">
       <span>Panama <em>Expat</em> Life</span>
     </a>
     <nav aria-label="Main">
@@ -519,7 +519,10 @@ def main():
         shutil.rmtree(OUT)
     OUT.mkdir()
     for f in STATIC.iterdir():
-        shutil.copy(f, OUT / f.name)
+        if f.is_dir():
+            shutil.copytree(f, OUT / f.name)
+        else:
+            shutil.copy(f, OUT / f.name)
 
     paths = ["/"]
     write("index.html", home_page())

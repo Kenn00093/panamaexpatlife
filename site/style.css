@@ -63,7 +63,8 @@ h3 { font-size: 1.2rem; margin: 1.4em 0 0.4em; }
 .header-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 24px; padding: 14px 0; }
 .brand { display: inline-flex; align-items: center; gap: 10px; color: var(--ink); text-decoration: none; font-family: var(--serif); font-weight: 650; font-size: 1.25rem; }
 .brand em { font-style: italic; color: var(--accent); font-weight: 500; }
-.brand-mark { width: 30px; height: 30px; }
+.brand-mark { width: 40px; height: 40px; }
+@media (prefers-color-scheme: dark) { .brand-mark { content: url(/brand/mark-suitcase-light.svg); } }
 .nav { list-style: none; display: flex; flex-wrap: wrap; gap: 4px 18px; margin: 0; padding: 0; font-weight: 600; font-size: 0.95rem; }
 .nav a { color: var(--ink); text-decoration: none; padding: 4px 0; border-bottom: 2px solid transparent; }
 .nav a:hover, .nav a[aria-current="page"] { border-bottom-color: var(--accent); }

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Panama Expat Life passport stamp mark">
+<defs>
+<path id="r" d="M60,18 a42,42 0 1,1 -0.01,0"/>
+<clipPath id="f"><rect x="38" y="40" width="44" height="30" rx="2"/></clipPath>
+</defs>
+<circle cx="60" cy="60" r="60" fill="#f5efe3"/>
+<g transform="rotate(-10 60 60)">
+<circle cx="60" cy="60" r="56" fill="none" stroke="#005293" stroke-width="3"/>
+<circle cx="60" cy="60" r="50.5" fill="none" stroke="#005293" stroke-width="1.2"/>
+<circle cx="60" cy="60" r="33" fill="none" stroke="#005293" stroke-width="1.2"/>
+<text font-family="Fraunces, Georgia, 'Times New Roman', serif" font-weight="700" font-size="9.6" letter-spacing="1.6" fill="#005293"><textPath href="#r" textLength="258">PANAMA · EXPAT · LIFE · BIENVENIDOS ·</textPath></text>
+<g clip-path="url(#f)">
+<rect x="38" y="40" width="44" height="30" fill="#ffffff"/>
+<rect x="60" y="40" width="22" height="15" fill="#D21034"/>
+<rect x="38" y="55" width="22" height="15" fill="#005293"/>
+<polygon points="0,-1 0.2245,-0.309 0.951,-0.309 0.363,0.118 0.588,0.809 0,0.382 -0.588,0.809 -0.363,0.118 -0.951,-0.309 -0.2245,-0.309" transform="translate(49 47.8) scale(4.6)" fill="#005293"/>
+<polygon points="0,-1 0.2245,-0.309 0.951,-0.309 0.363,0.118 0.588,0.809 0,0.382 -0.588,0.809 -0.363,0.118 -0.951,-0.309 -0.2245,-0.309" transform="translate(71 62.8) scale(4.6)" fill="#D21034"/>
+</g>
+<rect x="38" y="40" width="44" height="30" rx="2" fill="none" stroke="#163430" stroke-width="0.8"/>
+</g>
+</svg>
