@@ -63,7 +63,7 @@ PAGES = [
 <h2 id="scouting-trip">Planning your scouting trip</h2>
 <p>A scouting trip is research, not a holiday. Panama's dry season runs roughly from mid-December to April and the rainy season from May to November, so if you can, go in the one you expect to like less. A few habits make the trip far more useful:</p>
 <ul>
-  <li><strong>Split your time between regions.</strong> Two weeks is a sensible minimum. Spend several days in each of your shortlisted areas rather than day-tripping from one base.</li>
+  <li><strong>Split your time between regions.</strong> Two weeks is a sensible minimum. Spend several days in each of your shortlisted areas rather than day-tripping from one base. See <a href="/where-to-stay/">where to stay on your scouting trip</a> for the best base in each region.</li>
   <li><strong>Rent a car once you leave Panama City.</strong> Buses link the main towns, but beach communities, highland villages and the Azuero Peninsula are much easier to compare with your own wheels. Visitors can drive on a valid foreign licence for up to 90 days; carry it with your passport, because police checkpoints are common.</li>
   <li><strong>Have data from the moment you land.</strong> Setting up a travel eSIM such as <a href="https://airalo.tpx.lu/A0bmF3qo" rel="sponsored nofollow noopener" target="_blank">Airalo</a> (affiliate link) before you fly means maps and messaging work as soon as you leave the airport. Buy a local SIM later if you stay.</li>
   <li><strong>Live an ordinary week.</strong> Do the grocery shop, find the nearest clinic and pharmacy, drive at rush hour and walk around after dark. A normal Tuesday tells you more than a viewpoint.</li>
@@ -94,6 +94,77 @@ PAGES = [
  "Yes. Residency applications in Panama are filed through a Panamanian attorney, so choose one before you start gathering documents."),
 ],
 "related": ["residency", "where-to-live", "housing"],
+},
+
+# ---------------------------------------------------------------- WHERE TO STAY (draft, no hotel links yet)
+{
+"slug": "where-to-stay",
+"title": "Where to Stay on a Panama Scouting Trip, Region by Region | Panama Expat Life",
+"h1": "Where to stay on your Panama scouting trip",
+"kicker": "Scouting trip",
+"description": "Where to base yourself in each part of Panama when you're scouting for a move: Panama City, the Pacific beaches, El Valle, Boquete, the Azuero Peninsula and Bocas del Toro.",
+"lead": "On a scouting trip, stay where you might actually live, not in a resort. Base yourself in the town centre or neighbourhood you're considering, book a few nights in each region on your shortlist, and choose places with a kitchen so you can shop, cook and live an ordinary day.",
+"body": """
+<h2 id="how-to-choose">How to choose a base</h2>
+<ul>
+  <li><strong>Stay in the place, not near it.</strong> A beach resort or a highway-side hotel tells you little about daily life. Pick somewhere you can walk to a grocery store, a pharmacy and a caf&eacute;.</li>
+  <li><strong>Book three or four nights per region.</strong> One night is a stopover; three or four lets you see a weekday and a weekend.</li>
+  <li><strong>Choose a kitchen when you can.</strong> An apartment or a guesthouse with a kitchen means shopping at local supermarkets and markets, which is the quickest way to test prices.</li>
+  <li><strong>Mix in a short-term rental.</strong> If a town makes your shortlist, a week in a rental there tells you more than another hotel night: water pressure, power cuts, noise and neighbours.</li>
+</ul>
+
+<h2 id="panama-city">Panama City</h2>
+<p>Most trips start and end here, and it is worth two or three nights even if you plan to live elsewhere, because it is where you'll fly, see specialists and handle paperwork.</p>
+<ul>
+  <li><strong>Casco Viejo</strong> is historic, walkable and lively, with restaurants and plazas. It is charming for a first visit but noisier and more tourist-focused than where most residents live.</li>
+  <li><strong>El Cangrejo</strong> is central, practical and walkable, close to hospitals, supermarkets and the metro. It is the best base for seeing everyday city life.</li>
+  <li><strong>Costa del Este</strong> and <strong>Punta Pacifica</strong> show modern high-rise living near the main private hospitals. They are quieter at street level and you'll mostly drive or take taxis.</li>
+</ul>
+<p><strong>Test while you're there:</strong> rush-hour traffic, the drive to the hospital you'd use, and an evening walk around the neighbourhood.</p>
+
+<h2 id="pacific-beaches">Pacific beaches</h2>
+<p>The beach towns about an hour or so west of the city along the Pan-American Highway are among the driest parts of the country and have the largest beach expat community.</p>
+<ul>
+  <li><strong>Coronado</strong> is the services hub, with supermarkets, clinics and banks. Stay inside the town rather than on the highway strip so you can judge it as a place to live.</li>
+  <li><strong>Gorgona</strong> and <strong>San Carlos</strong> are smaller and quieter, a short drive from Coronado's shops.</li>
+</ul>
+<p><strong>Test while you're there:</strong> the drive to Panama City at a busy time, weekday versus weekend crowds, and how far the nearest hospital is.</p>
+
+<h2 id="el-valle">El Valle de Ant&oacute;n</h2>
+<p>A mountain valley about two hours from the city, with cooler air and a small-town feel. Stay close to the centre and the market so you can walk, and check how you'd reach the beaches and the city for errands.</p>
+
+<h2 id="chiriqui-highlands">Boquete and the Chiriqu&iacute; highlands</h2>
+<p>Spring-like weather and Panama's best-known mountain expat community. Fly or drive to David, the provincial city, then head up into the hills.</p>
+<ul>
+  <li><strong>Boquete town centre</strong> is the easiest base: walkable, with restaurants, a supermarket and community events.</li>
+  <li><strong>Volc&aacute;n</strong> and <strong>Cerro Punta</strong> are quieter, cooler and more agricultural. Spend a night or two if Boquete feels too busy.</li>
+</ul>
+<p><strong>Test while you're there:</strong> the wind and rain in the season you visit, the drive down to David for hospitals and big shops, and how your clothes and home would cope with the damp.</p>
+
+<h2 id="azuero">Pedas&iacute; and the Azuero Peninsula</h2>
+<p>Traditional Panamanian small towns, surf beaches and a slower pace, about five hours' drive from the city. Fewer expats live here than in Boquete or Coronado, so Spanish matters more.</p>
+<ul>
+  <li><strong>Pedas&iacute;</strong> is the most popular base, with a walkable centre and beaches a short drive away.</li>
+  <li><strong>Las Tablas</strong> and <strong>Chitr&eacute;</strong> are the larger service towns, with hospitals, banks and bigger supermarkets. Spend a day in each to see what's within reach.</li>
+</ul>
+<p><strong>Test while you're there:</strong> the drive to Chitr&eacute; or Las Tablas for services, internet speed where you'd live, and how quiet the low season feels.</p>
+
+<h2 id="caribbean">Bocas del Toro</h2>
+<p>Caribbean island living, with water taxis instead of roads for many trips. Stay on <strong>Isla Col&oacute;n</strong>, the main island, to judge services and daily life, then spend a night or two on a quieter island if that's the lifestyle you're after.</p>
+<p><strong>Test while you're there:</strong> how you'd get groceries, healthcare and flights to the city, and the wetter weather, which can come in any month.</p>
+
+<h2 id="longer-stays">After the scouting trip</h2>
+<p>Once you've chosen a region, rent for six to twelve months before you buy. See <a href="/housing/">Housing</a> for how long-term rentals work, and our <a href="/free-checklist/">free move checklist</a> for what to do when.</p>
+""",
+"faq": [
+("Where should I stay on a scouting trip to Panama?",
+ "Stay in the town or neighbourhood you're considering living in rather than a resort, ideally somewhere with a kitchen, and spend three or four nights in each region on your shortlist."),
+("Which Panama City neighbourhood is best for a first visit?",
+ "El Cangrejo is the most practical base for seeing everyday city life, being central and walkable with hospitals and the metro nearby. Casco Viejo is more charming but noisier and more tourist-focused."),
+("How long should I stay in each region?",
+ "Three or four nights per region lets you see both a weekday and a weekend. If a town makes your shortlist, follow up with a week in a short-term rental."),
+],
+"related": ["start-here", "where-to-live", "housing"],
 },
 
 # ---------------------------------------------------------------- RESIDENCY
