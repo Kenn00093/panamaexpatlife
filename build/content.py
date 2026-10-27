@@ -60,6 +60,17 @@ PAGES = [
   </div>
 </div>
 
+<h2 id="scouting-trip">Planning your scouting trip</h2>
+<p>A scouting trip is research, not a holiday. Panama's dry season runs roughly from mid-December to April and the rainy season from May to November, so if you can, go in the one you expect to like less. A few habits make the trip far more useful:</p>
+<ul>
+  <li><strong>Split your time between regions.</strong> Two weeks is a sensible minimum. Spend several days in each of your shortlisted areas rather than day-tripping from one base.</li>
+  <li><strong>Rent a car once you leave Panama City.</strong> Buses link the main towns, but beach communities, highland villages and the Azuero Peninsula are much easier to compare with your own wheels. Visitors can drive on a valid foreign licence for up to 90 days; carry it with your passport, because police checkpoints are common.</li>
+  <li><strong>Have data from the moment you land.</strong> Setting up a travel eSIM such as <a href="https://airalo.tpx.lu/A0bmF3qo" rel="sponsored nofollow noopener" target="_blank">Airalo</a> (affiliate link) before you fly means maps and messaging work as soon as you leave the airport. Buy a local SIM later if you stay.</li>
+  <li><strong>Live an ordinary week.</strong> Do the grocery shop, find the nearest clinic and pharmacy, drive at rush hour and walk around after dark. A normal Tuesday tells you more than a viewpoint.</li>
+  <li><strong>Talk to people who live there.</strong> Long-term renters, local business owners and expat groups will tell you what brochures leave out, from water and power cuts to the best time of year.</li>
+  <li><strong>Don't sign anything yet.</strong> Use the trip to shortlist towns, meet a lawyer or two and line up a rental for your move. Buying can wait.</li>
+</ul>
+
 <h2 id="lessons">What expats wish they'd known</h2>
 <p>We're interviewing people who have made the move to every region of Panama, and adding their lessons here as we go. The themes that come up most often so far:</p>
 <ul>
@@ -77,6 +88,8 @@ PAGES = [
  "Visit first, for at least two weeks and ideally in the season you like least, then narrow your search to one or two regions before choosing a residency route."),
 ("Should I rent or buy when I first move to Panama?",
  "Rent for six to twelve months first. Living in a town through both seasons tells you far more than short visits, and it avoids the most common and most expensive mistake new arrivals make."),
+("How long should a scouting trip to Panama be?",
+ "At least two weeks, split between the one or two regions you are considering. Visitors can drive on a valid foreign licence for up to 90 days, and a rental car makes it much easier to compare towns outside Panama City."),
 ("Do I need a lawyer to get residency in Panama?",
  "Yes. Residency applications in Panama are filed through a Panamanian attorney, so choose one before you start gathering documents."),
 ],
