@@ -85,6 +85,7 @@ def layout(*, path, title, description, body, current="", schema=None, og_type="
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#f5efe3">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://images.unsplash.com">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Source+Sans+3:wght@400;600;700&display=swap">
@@ -242,7 +243,27 @@ def home_page():
         f'<li><a class="card-link" href="/{p["slug"]}/"><span class="card-kicker">{p["kicker"]}</span>'
         f'<span class="card-title">{p["h1"]}</span><span class="card-text">{p["description"]}</span></a></li>'
         for p in PAGES)
+    def photo(pid, alt, label, credit, credit_url, first=False):
+        base = f"https://images.unsplash.com/{pid}?fm=jpg&q=70&fit=crop&crop=entropy&auto=format"
+        srcset = ", ".join(f"{base}&w={w}&h={round(w*0.62)} {w}w" for w in (640, 960, 1280))
+        prio = 'loading="eager" fetchpriority="high"' if first else 'loading="eager"'
+        return (f'<figure class="hero-photo"><img src="{base}&w=960&h=595" srcset="{srcset}" '
+                f'sizes="(max-width: 700px) 100vw, 50vw" width="960" height="595" alt="{alt}" {prio} decoding="async">'
+                f'<figcaption><span class="photo-label">{label}</span>'
+                f'<span class="photo-credit">Photo: <a href="{credit_url}" rel="noopener">{credit}</a> on Unsplash</span></figcaption></figure>')
+
+    photos = (
+        photo("photo-1587759301533-ae42d7065a80",
+              "The Panama City skyline at golden hour, framed by a palm tree",
+              "Panama City", "Fabrice Parchet", "https://unsplash.com/photos/KWEllBjrSVM", first=True)
+        + photo("photo-1517154868524-c6b5fbd62a1c",
+                "A wooden canoe on turquoise water off a palm-lined beach in the San Blas Islands, Panama",
+                "San Blas Islands", "Angel Silva", "https://unsplash.com/photos/V-uYocR8k8k"))
+
     body = f"""
+<section class="hero-photos" aria-label="Panama City and a Panama beach">
+  {photos}
+</section>
 <section class="hero">
   <div class="wrap hero-inner">
     <div class="hero-copy">
@@ -251,12 +272,6 @@ def home_page():
       <p class="lead">Residency, cost of living, healthcare, banking, pets and where to live, in plain English. Honest about the good and the hard parts, and checked against current rules.</p>
       <p class="hero-actions"><a class="btn" href="/start-here/">Start here</a> <a class="btn btn-ghost" href="/free-checklist/">Free move checklist</a></p>
     </div>
-    <svg class="hero-art" viewBox="0 0 400 320" role="img" aria-label="Illustration of the sun setting over hills and the sea">
-      <circle cx="250" cy="120" r="70" fill="var(--sun)"/>
-      <path d="M0 200 Q80 120 160 180 T320 150 T400 170 V320 H0Z" fill="var(--hill)"/>
-      <path d="M0 240 Q60 220 120 240 T240 240 T360 240 T400 236 V320 H0Z" fill="var(--sea)"/>
-      <path d="M0 270 Q60 252 120 270 T240 270 T360 270 T400 266 V320 H0Z" fill="var(--sea-deep)"/>
-    </svg>
   </div>
 </section>
 
