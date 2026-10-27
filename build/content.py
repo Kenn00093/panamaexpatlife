@@ -724,7 +724,6 @@ PAGES = [
 },
 
 # ---------------------------------------------------------------- FLYING TO PANAMA
-# AFFILIATE: add a flight search link (Travelpayouts) where marked once approved.
 {
 "slug": "flying-to-panama",
 "title": "Flying to Panama: Airports, Direct Flights and Getting Around | Panama Expat Life",
@@ -743,7 +742,7 @@ PAGES = [
 
 <h2 id="direct-flights">Direct flights</h2>
 <p>Copa flies nonstop to Panama City from a long list of US cities, and US airlines add more. From Canada there are direct flights from Toronto and Montr&eacute;al, with seasonal winter service from Calgary. From the UK and Europe you'll usually connect, either through a US hub or on a direct flight from cities such as Madrid or Amsterdam. Because Tocumen is a hub, Panama is also easy to reach from most of Latin America.</p>
-<!-- AFFILIATE: flight search link -->
+<p>To compare fares across airlines and booking sites in one search, try a flight search engine such as <a href="https://aviasales.tpx.lu/yimjiz1K" rel="sponsored nofollow noopener" target="_blank">Aviasales</a> (affiliate link). Check the final price and baggage rules on the booking page before you pay, and consider booking direct with the airline if the price is close, as changes and refunds are usually simpler.</p>
 
 <h2 id="entry">Entry rules</h2>
 <p>Canadian, US and UK citizens don't need a visa for a tourist visit. Bring a passport valid for at least six months beyond your stay and a return or onward ticket, and be ready to show you can support yourself during your visit. The length of stay you're allowed is set by immigration on arrival, so check your entry stamp. If you're bringing a pet, see <a href="/moving/">Moving</a>.</p>
