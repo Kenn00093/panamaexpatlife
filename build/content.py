@@ -334,8 +334,20 @@ PAGES = [
   <li><strong>Pensionado holders</strong> can usually import household goods with a one-time duty exemption up to a set value. Confirm the current limit with your lawyer before you book a container.</li>
 </ul>
 
+<h2 id="shipping">Shipping a container: pull it into Panama</h2>
+<p>If you do ship, the way you book it matters. Most people ask a mover at home to <em>push</em> the shipment: the mover hands your goods to a destination agent in Panama you never chose, and that's where surprise charges, customs problems and storage fees at the port tend to appear. The better approach is to have a licensed importer in Panama <em>pull</em> the shipment in, managing customs, the duty exemption paperwork and delivery from this end.</p>
+<p><strong>Our first choice is <a href="https://contenedorpro.com/?ref=PEDASI" rel="sponsored nofollow noopener" target="_blank">ContenedorPro</a></strong> (referral link), a licensed Panamanian container importer. They handle:</p>
+<ul>
+  <li>Full containers (FCL) and shared containers (LCL) from any port in the world</li>
+  <li>Customs clearance by licensed customs brokers</li>
+  <li>Supervised opening of your container</li>
+  <li>Transport to your new home and cargo insurance</li>
+  <li>Importing cars, trucks and machinery with the full paperwork</li>
+</ul>
+<p class="notice"><strong>Get a free quote:</strong> <a href="https://contenedorpro.com/?ref=PEDASI" rel="sponsored nofollow noopener" target="_blank">contenedorpro.com</a> &middot; WhatsApp <a href="https://wa.me/50764588475" rel="noopener">+507 6458-8475</a> &middot; <a href="mailto:info@contenedorpro.com">info@contenedorpro.com</a>. Get your quote before you book anything with a mover at home, and ask what's included door to door.</p>
+
 <h2 id="cars">Bringing a car</h2>
-<p>You can import a vehicle, but duties, shipping and paperwork often make it cheaper to buy in Panama, where most popular models are sold and serviced. Pensionado holders have historically had vehicle import benefits; check the current terms before deciding.</p>
+<p>You can import a vehicle, but duties, shipping and paperwork often make it cheaper to buy in Panama, where most popular models are sold and serviced. If you do want to bring one, <a href="https://contenedorpro.com/?ref=PEDASI" rel="sponsored nofollow noopener" target="_blank">ContenedorPro</a> (referral link) handles vehicle imports with the paperwork. Pensionado holders have historically had vehicle import benefits; check the current terms before deciding.</p>
 <p>Visitors can usually drive on a valid foreign licence for a limited period (commonly 90 days); residents need to switch to a Panamanian licence.</p>
 """,
 "faq": [
@@ -343,6 +355,8 @@ PAGES = [
  "Yes. You'll need a current rabies vaccination, an endorsed health certificate stamped by a Panamanian consulate, and to notify Panama's Ministry of Health at least three days before arrival. Most pets then complete a short home quarantine."),
 ("Do pets have to go into quarantine in Panama?",
  "Usually only home quarantine, provided the paperwork is in order and the Ministry of Health has been notified before arrival."),
+("Who should I use to ship a container to Panama?",
+ "Use a licensed importer in Panama that pulls the shipment in and handles customs and delivery, rather than leaving it to a destination agent chosen by your mover at home. Our first choice is ContenedorPro, which handles full and shared containers, customs clearance, delivery and vehicle imports."),
 ("Should I ship my furniture to Panama?",
  "Usually not. Humidity is hard on upholstered and particleboard furniture, and shipping plus import paperwork often costs more than buying locally. Bring smaller, high-value and sentimental items instead."),
 ],
