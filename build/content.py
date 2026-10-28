@@ -22,8 +22,8 @@ PAGES = [
 "title": "Moving to Panama: Where to Begin | Panama Expat Life",
 "h1": "Moving to Panama: where to begin",
 "kicker": "Start here",
-"description": "A plain-English roadmap for moving to Panama: visit first, choose a region, pick a residency route, sort healthcare and banking, then rent before you buy.",
-"lead": "Most successful moves to Panama follow the same order: visit first, choose a region, pick a residency route, sort out healthcare and banking, then rent for six to twelve months before you buy anything. Doing it in that order saves people the most money and the most regret.",
+"description": "A plain-English roadmap for moving to Panama: visit first, choose a region, pick a residency route, sort healthcare and banking, then scout each area in person before you buy.",
+"lead": "Most successful moves to Panama follow the same order: visit first, choose a region, pick a residency route, sort out healthcare and banking, then spend one to three weeks living in each area you're considering before you buy anything. Doing it in that order saves people the most money and the most regret.",
 "body": """
 <h2 id="roadmap">The move, step by step</h2>
 <ol class="steps">
@@ -34,7 +34,7 @@ PAGES = [
   <li><strong>Plan healthcare.</strong> Decide between local private insurance and an international plan before you arrive. See <a href="/healthcare/">Healthcare</a>.</li>
   <li><strong>Start on banking early.</strong> Opening a Panamanian bank account can take weeks and usually needs reference letters from your home bank. See <a href="/money/">Money</a>.</li>
   <li><strong>Decide what to bring.</strong> Pets, household goods and cars each have their own process. See <a href="/moving/">Moving</a>.</li>
-  <li><strong>Rent before you buy.</strong> Six to twelve months in a rental tells you more about a town than any number of visits. See <a href="/housing/">Housing</a>.</li>
+  <li><strong>Scout before you buy.</strong> Spend one to three weeks living in each area on your shortlist, doing ordinary things, before you commit. See <a href="/housing/">Housing</a>.</li>
 </ol>
 
 <h2 id="right-for-you">Is Panama right for you?</h2>
@@ -75,7 +75,7 @@ PAGES = [
 <h2 id="lessons">What expats wish they'd known</h2>
 <p>We're interviewing people who have made the move to every region of Panama, and adding their lessons here as we go. The themes that come up most often so far:</p>
 <ul>
-  <li>Rent first. Almost everyone who bought in their first month would do it differently.</li>
+  <li>Live in an area for a week or more before you buy. People who bought on a first holiday visit often wish they'd compared towns first.</li>
   <li>Start Spanish lessons before you arrive, even an hour a week.</li>
   <li>Keep a home-country bank account and card open; local banking takes time.</li>
   <li>Build in buffer time for every government process.</li>
@@ -88,7 +88,7 @@ PAGES = [
 ("What is the first step in moving to Panama?",
  "Visit first, for at least two weeks and ideally in the season you like least, then narrow your search to one or two regions before choosing a residency route."),
 ("Should I rent or buy when I first move to Panama?",
- "Rent for six to twelve months first. Living in a town through both seasons tells you far more than short visits, and it avoids the most common and most expensive mistake new arrivals make."),
+ "That depends on your plans, but either way, spend one to three weeks living in each area you're considering first. It tells you far more than a holiday visit and avoids the most common and most expensive mistake: buying in the wrong town. If you plan to rent long-term, see our Housing guide for how leases work."),
 ("How long should a scouting trip to Panama be?",
  "At least two weeks, split between the one or two regions you are considering. Visitors can drive on a valid foreign licence for up to 90 days, and a rental car makes it much easier to compare towns outside Panama City."),
 ("Do I need a lawyer to get residency in Panama?",
@@ -202,7 +202,7 @@ PAGES = [
   <li>Shop at local markets and fruit stands rather than only at large supermarkets.</li>
   <li>Choose a home with good cross-ventilation, shade and ceiling fans.</li>
   <li>Use Pensionado discounts if you qualify.</li>
-  <li>Rent before buying, so you learn the real costs of a town before committing.</li>
+  <li>Spend a week or more living in a town before you buy, so you learn its real costs before committing.</li>
 </ul>
 
 <p>We're building town-by-town monthly budgets from real expat households. Join our <a href="/free-checklist/">free checklist list</a> to get them when they're published.</p>
@@ -404,10 +404,13 @@ PAGES = [
 "title": "Renting and Buying Property in Panama as a Foreigner | Panama Expat Life",
 "h1": "Renting and buying a home in Panama",
 "kicker": "Housing",
-"description": "How to find a long-term rental in Panama, why to rent before you buy, and how buying property in Panama works for foreigners: titles, lawyers and costs.",
-"lead": "Rent for six to twelve months before you buy. When you do buy, foreigners can generally own property in Panama with the same rights as Panamanians, with some restrictions near borders and on certain coastal and island land. Always use your own independent lawyer to check the title, and know whether a property is titled land or rights-of-possession land.",
+"description": "How to scout areas before you buy, how buying property in Panama works for foreigners (titles, lawyers and costs), and what to check if you rent long-term.",
+"lead": "Spend one to three weeks living in each area you're considering before you buy. When you do buy, foreigners can generally own property in Panama with the same rights as Panamanians, with some restrictions near borders and on certain coastal and island land. Always use your own independent lawyer to check the title, and know whether a property is titled land or rights-of-possession land.",
 "body": """
-<h2 id="renting">Finding a long-term rental</h2>
+<h2 id="scouting">Scout first: one to three weeks per area</h2>
+<p>The best way to choose where to buy is to live in each town on your shortlist for one to three weeks: shop where locals shop, drive the roads at rush hour, and see how it feels after dark. See <a href="/where-to-stay/">where to stay on your scouting trip</a>.</p>
+
+<h2 id="renting">If you plan to rent long-term</h2>
 <p>Many of the best long-term rentals are never advertised online. Expat community groups, local property managers and word of mouth find more than websites do, especially outside Panama City. When you rent:</p>
 <ul>
   <li>Expect a security deposit, often one or two months' rent.</li>
@@ -437,8 +440,8 @@ PAGES = [
  "Land that isn't registered in Panama's Public Registry. It can be bought and sold, but it carries more risk than titled property and is harder to finance and resell."),
 ("Who pays the real estate commission in Panama?",
  "The seller normally pays the agent's commission. Buyers typically pay their own lawyer plus notary and Public Registry fees."),
-("Should I rent before buying in Panama?",
- "Yes. Renting for six to twelve months lets you experience both seasons, the roads, the neighbours and the services before you commit."),
+("How long should I spend in an area before buying?",
+ "One to three weeks in each area on your shortlist, living an ordinary week rather than a holiday. That's usually enough to compare towns, services, roads and neighbours before you commit."),
 ],
 "related": ["where-to-live", "residency", "money"],
 },
@@ -501,7 +504,7 @@ PAGES = [
 <p><strong>Test while you're there:</strong> how you'd get groceries, healthcare and flights to the city, and the wetter weather, which can come in any month.</p>
 
 <h2 id="longer-stays">After the scouting trip</h2>
-<p>Once you've chosen a region, rent for six to twelve months before you buy. See <a href="/housing/">Housing</a> for how long-term rentals work, and our <a href="/free-checklist/">free move checklist</a> for what to do when.</p>
+<p>Spend one to three weeks in each area on your shortlist before you buy. See <a href="/housing/">Housing</a> for how buying works, and what to check if you rent long-term, and our <a href="/free-checklist/">free move checklist</a> for what to do when.</p>
 """,
 "faq": [
 ("Where should I stay on a scouting trip to Panama?",
@@ -809,7 +812,7 @@ CHECKLIST = [
   "Decide what to ship, store, sell or give away.",
 ]),
 ("3 months before", [
-  "Line up a furnished long-term rental for your first six to twelve months.",
+  "Book your housing for arrival: a furnished stay while you finalise a purchase, or a long-term rental if you plan to rent.",
   "Get moving and shipping quotes if you're sending belongings.",
   "Compare currency transfer services for moving larger sums.",
   "Book flights, including pet travel if needed.",

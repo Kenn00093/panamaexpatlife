@@ -9,8 +9,9 @@ import json
 import shutil
 from pathlib import Path
 
-from config import (KIT_FORM_ID, LANG, LAST_CHECKED, LAST_CHECKED_HUMAN, NAV,
-                    PANAMA_PROPERTIES_URL, SITE_NAME, SITE_TAGLINE, SITE_URL)
+from config import (GUIDE_BUY_URL, GUIDE_NAME, GUIDE_PATH, GUIDE_PRICE, KIT_FORM_ID, LANG,
+                    LAST_CHECKED, LAST_CHECKED_HUMAN, NAV, PANAMA_PROPERTIES_URL, SITE_NAME,
+                    SITE_TAGLINE, SITE_URL)
 from content import CHECKLIST, PAGES
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -124,6 +125,7 @@ def layout(*, path, title, description, body, current="", schema=None, og_type="
       <p class="footer-brand">Panama Expat Life</p>
       <p>{SITE_TAGLINE}. Written by a team that lives and works across Panama.</p>
       <p><a class="btn btn-small" href="/free-checklist/">Get the free move checklist</a></p>
+      <p><a href="{GUIDE_PATH}">{GUIDE_NAME}</a>: every contact, cost and step in one download</p>
     </div>
     <div>
       <p class="footer-head">Guides</p>
@@ -205,6 +207,7 @@ def section_page(p):
       </section>
     </div>
   </div>
+  {guide_box(p['slug'])}
   <section class="wrap related" aria-labelledby="related-title">
     <h2 id="related-title">Keep reading</h2>
     <ul class="cards cards-3">{related}</ul>
@@ -246,6 +249,112 @@ def cta_band():
   </section>"""
 
 
+GUIDE_HOOKS = {
+    "start-here": "Want the whole plan in one place? The guide turns this roadmap into a step-by-step plan, from leaving home to your first year, with a vetted contact for every step.",
+    "residency": "The guide names the immigration lawyers we use, by region, with what each one handles, plus how to keep your residency once you have it.",
+    "cost-of-living": "The guide has monthly budgets for city, beach and highland living, plus a one-time budget for the move itself.",
+    "healthcare": "The guide lists private hospitals and clinics by region with phone numbers, the insurance broker we use, ambulances and air ambulance, and an emergency sheet to print.",
+    "money": "The guide covers opening an account, moving large sums, taxes in Panama and at home, and the banks we recommend, with contact details.",
+    "moving": "The guide names the movers and the pet relocation company we trust, with what it really costs to bring a pet.",
+    "where-to-live": "The guide adds trusted local contacts in each region: lawyers, builders, mechanics, plumbers and electricians, property managers and more.",
+    "housing": "The guide's buying section covers title types, due diligence, closing costs, financing and owner financing, with a step-by-step process.",
+    "where-to-stay": "Scouting soon? The guide has the full relocation plan, plus local contacts in every area you'll visit.",
+    "renting-a-car": "The guide covers buying a car, the dealers and mechanics we use, drivers, buses and domestic flights.",
+    "travel-insurance": "The guide covers long-term health insurance, the broker we use and private hospitals in every region.",
+    "moving-money": "The guide covers banking, taxes in Panama and at home, and the banks we recommend, with contact details.",
+    "phones-and-internet": "The guide lists the internet provider, generator company, mailbox service and tradespeople we use, with contact details.",
+    "flying-to-panama": "The guide covers domestic flights and charters, long-distance buses, Uber and driving, with contacts and fares.",
+}
+
+
+def guide_cta(label="See what's inside"):
+    if GUIDE_BUY_URL:
+        price = f" &middot; {GUIDE_PRICE}" if GUIDE_PRICE else ""
+        return f'<a class="btn" href="{GUIDE_BUY_URL}">Get the guide{price}</a>'
+    return f'<a class="btn" href="{GUIDE_PATH}">{label}</a>'
+
+
+def guide_box(slug):
+    hook = GUIDE_HOOKS.get(slug, "Every contact, cost and step for moving to Panama, in one download.")
+    soon = "" if GUIDE_BUY_URL else ' <span class="guide-soon">Launching soon</span>'
+    return f"""
+  <aside class="wrap guide-box" aria-label="{GUIDE_NAME}">
+    <div class="guide-box-inner">
+      <p class="kicker">The full guide{soon}</p>
+      <p class="guide-box-title">{GUIDE_NAME}</p>
+      <p>{hook}</p>
+      <p>{guide_cta()}</p>
+    </div>
+  </aside>"""
+
+
+GUIDE_SECTIONS = [
+    ("Planning the move", ["Why Panama, and the honest trade-offs", "A 12-month move timeline", "Leaving Canada or the US cleanly: tax, pensions, health cover and banks", "Choosing where to live, region by region", "Safety, weather and natural hazards"]),
+    ("Residency and legal", ["Residency visas, and how to keep your residency", "The lawyers we use, by region", "Wills and estate planning"]),
+    ("Money", ["Banking and moving money", "Taxes in Panama", "Working and doing business in Panama", "Cost of living, with monthly budgets", "Budgeting for the move itself"]),
+    ("Health", ["Health insurance and the broker we use", "Private hospitals and clinics in every region", "Pharmacies and medications", "Ageing in Panama"]),
+    ("Home", ["Housing: scouting before you buy, and renting", "Buying property in Panama: titles, due diligence, closing costs and financing", "Property management", "Hiring household help", "Home and auto insurance"]),
+    ("The move itself", ["Moving your belongings: pulling, not pushing, your shipment", "Pets", "Driving, Uber, buses and domestic flights", "Phones, internet and utilities", "Plumbers, electricians and handymen"]),
+    ("Settling in", ["Learning Spanish", "Families: schools and kids", "Shopping and daily life", "Community and social life", "Culture and etiquette", "Adjusting to life in Panama", "Your first 30 days"]),
+    ("Reference", ["Your yearly calendar", "Common concerns, answered", "A printable emergency sheet", "Your contacts at a glance: every recommended contact in one directory"]),
+]
+
+
+def guide_page():
+    groups = "".join(
+        f'<section class="check-group" aria-labelledby="g-{i}"><h3 id="g-{i}">{name}</h3><ul>'
+        + "".join(f"<li>{x}</li>" for x in items) + "</ul></section>"
+        for i, (name, items) in enumerate(GUIDE_SECTIONS))
+    if GUIDE_BUY_URL:
+        buy = f"""<div class="signup"><p><strong>Available now{(' for ' + GUIDE_PRICE) if GUIDE_PRICE else ''}.</strong> Instant PDF download.</p><p>{guide_cta()}</p></div>"""
+    elif KIT_FORM_ID:
+        buy = f"""
+      <form class="signup" action="https://app.kit.com/forms/{KIT_FORM_ID}/subscriptions" method="post">
+        <label for="g-email">The guide launches soon. Get an email the day it's out.</label>
+        <div class="signup-row">
+          <input id="g-name" name="fields[first_name]" type="text" autocomplete="given-name" placeholder="First name" aria-label="First name">
+          <input id="g-email" name="email_address" type="email" autocomplete="email" required placeholder="you@example.com">
+          <button class="btn" type="submit">Tell me when it's out</button>
+        </div>
+        <p class="small">You'll also get our free move checklist and new guides. Unsubscribe any time. See our <a href="/privacy/">privacy policy</a>.</p>
+      </form>"""
+    else:
+        buy = '<div class="signup signup-soon"><p><strong>Launching soon.</strong></p></div>'
+    body = f"""
+<article class="article">
+  <div class="wrap article-head">
+    <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">The relocation guide</li></ol></nav>
+    <p class="kicker">The full guide</p>
+    <h1>{GUIDE_NAME}</h1>
+    <p class="lead">Everything you need to move to Panama, in one download: a step-by-step plan from leaving home to your first year, the real costs, and the lawyers, doctors, brokers, movers, builders and tradespeople we actually use, with their phone numbers.</p>
+    {buy}
+  </div>
+  <div class="wrap prose prose-narrow">
+    <h2 id="why">Why a paid guide?</h2>
+    <p>This website covers the basics for free. The guide is what we'd hand a friend who's serious about moving: more than 40 chapters and about 90 pages, written by a team that lives in Panama City, Pedas&iacute;, Boquete and beyond.</p>
+    <ul>
+      <li><strong>Vetted local contacts in every chapter.</strong> Lawyers by region and specialty, the health insurance broker we use, private hospitals with phone numbers, movers, a pet relocation company, car dealers, mechanics, drivers, builders, architects, property managers, plumbers, electricians and more.</li>
+      <li><strong>Real numbers.</strong> Monthly budgets for city, beach and highland living, a one-time moving budget, closing costs, taxes, bus fares and domestic flight prices.</li>
+      <li><strong>The parts other guides skip.</strong> Leaving Canada or the US cleanly, wills and probate, hiring household help legally, keeping your residency, ageing in Panama and adjusting to life here.</li>
+      <li><strong>Reference pages you'll keep using:</strong> a yearly calendar, a printable emergency sheet and a directory of every contact in the guide.</li>
+    </ul>
+  </div>
+  <div class="wrap">
+    <h2 id="contents">What's inside</h2>
+    <div class="checklist">{groups}</div>
+    <p class="small">Information checked in {LAST_CHECKED_HUMAN}. General information, not legal, tax, immigration or medical advice. Our team is affiliated with Panama Properties, a licensed Panamanian real estate brokerage; see our <a href="/about/#disclosure">disclosure</a>.</p>
+  </div>
+</article>
+"""
+    schema = [{"@type": "WebPage", "@id": SITE_URL + GUIDE_PATH + "#webpage", "url": SITE_URL + GUIDE_PATH,
+               "name": GUIDE_NAME, "isPartOf": {"@id": SITE_URL + "/#website"},
+               "about": {"@type": "Country", "name": "Panama"}},
+              breadcrumb([("Home", "/"), ("The relocation guide", GUIDE_PATH)])]
+    return layout(path=GUIDE_PATH, title=f"{GUIDE_NAME}: The Complete Guide to Moving to Panama | {SITE_NAME}",
+                  description="A complete, downloadable guide to moving to Panama: step-by-step plan, real costs, and the vetted lawyers, doctors, movers and local contacts we use in every region.",
+                  body=body, schema=schema)
+
+
 def home_page():
     cards = "".join(
         f'<li><a class="card-link" href="/{p["slug"]}/"><span class="card-kicker">{p["kicker"]}</span>'
@@ -278,14 +387,14 @@ def home_page():
       <p class="kicker">The practical guide to Panama</p>
       <h1>Moving to Panama, explained by people who live here</h1>
       <p class="lead">Residency, cost of living, healthcare, banking, pets and where to live, in plain English. Honest about the good and the hard parts, and checked against current rules.</p>
-      <p class="hero-actions"><a class="btn" href="/start-here/">Start here</a> <a class="btn btn-ghost" href="/free-checklist/">Free move checklist</a></p>
+      <p class="hero-actions"><a class="btn" href="/start-here/">Start here</a> <a class="btn btn-ghost" href="{GUIDE_PATH}">Get the full relocation guide</a></p>
     </div>
   </div>
 </section>
 
 <section class="wrap answer" aria-labelledby="quick-title">
   <h2 id="quick-title">Moving to Panama in one paragraph</h2>
-  <p>Panama uses the US dollar, has one of the region's more accessible retiree visas (the Pensionado, for a lifetime pension of about US$1,000 a month), and offers a choice of climates within a few hours' drive: hot cities and beaches, and cool mountain towns like Boquete. Most successful movers visit first, choose a region, pick a residency route with their own lawyer, arrange health insurance and banking early, and rent for six to twelve months before buying.</p>
+  <p>Panama uses the US dollar, has one of the region's more accessible retiree visas (the Pensionado, for a lifetime pension of about US$1,000 a month), and offers a choice of climates within a few hours' drive: hot cities and beaches, and cool mountain towns like Boquete. Most successful movers visit first, choose a region, pick a residency route with their own lawyer, arrange health insurance and banking early, and spend one to three weeks living in each area on their shortlist before buying.</p>
 </section>
 
 <section class="wrap guides" aria-labelledby="guides-title">
@@ -305,6 +414,7 @@ def home_page():
     </ul>
   </div>
 </section>
+{guide_box("home")}
 {cta_band()}
 """
     schema = [{"@type": "WebPage", "@id": SITE_URL + "/#webpage", "url": SITE_URL + "/",
@@ -492,6 +602,7 @@ def llms_txt():
     for p in PAGES:
         lines.append(f"- [{text(p['h1'])}]({SITE_URL}/{p['slug']}/): {text(p['lead'])}")
     lines += ["", "## Other", "",
+              f"- [{GUIDE_NAME}]({SITE_URL}{GUIDE_PATH}): complete downloadable relocation guide with vetted local contacts in every region",
               f"- [Free Panama move checklist]({SITE_URL}/free-checklist/): month-by-month moving timeline",
               f"- [About and disclosure]({SITE_URL}/about/)", ""]
     return "\n".join(lines)
@@ -536,6 +647,7 @@ def main():
     for p in PAGES:
         write(f"{p['slug']}/index.html", section_page(p))
         paths.append(f"/{p['slug']}/")
+    write("relocation-guide/index.html", guide_page()); paths.append(GUIDE_PATH)
     write("free-checklist/index.html", checklist_page()); paths.append("/free-checklist/")
     write("about/index.html", about_page()); paths.append("/about/")
     write("privacy/index.html", privacy_page()); paths.append("/privacy/")

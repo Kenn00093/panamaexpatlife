@@ -26,3 +26,10 @@ NAV = [
     ("where-to-live", "Where to live"),
     ("housing", "Housing"),
 ]
+
+# The paid Panama Relocation Guide. Until it launches, GUIDE_BUY_URL stays empty and
+# every promo points to the guide page, which offers a launch-notice sign-up.
+GUIDE_PATH = "/relocation-guide/"
+GUIDE_NAME = "The Panama Relocation Guide"
+GUIDE_BUY_URL = ""   # set to the checkout link at launch
+GUIDE_PRICE = ""     # e.g. "US$49" at launch
