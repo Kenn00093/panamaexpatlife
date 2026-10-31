@@ -292,7 +292,7 @@ PAGES = [
 <p>Requirements vary by bank and change over time. US citizens may find some banks more cautious because of US reporting rules. Many people find the process easier once they have residency, or with an introduction from their lawyer.</p>
 
 <h2 id="moving-money">Moving money to Panama</h2>
-<p>A traditional international wire works, but bank fees and exchange margins (if you're converting from Canadian dollars, pounds or euros) add up. Specialist currency transfer services often offer better rates for larger amounts, such as a property purchase or a residency deposit. Compare the total cost, not just the fee. See <a href="/moving-money/">Moving money to Panama</a> for options, paperwork and how to avoid wire fraud.</p>
+<p>A traditional international wire works, but bank fees and exchange margins (if you're converting from Canadian dollars, pounds or euros) add up. Specialist currency transfer services such as <a href="https://wise.prf.hn/click/camref:1011l6uLWU/pubref:pel-money" rel="sponsored nofollow noopener" target="_blank">Wise</a> (affiliate link) often offer better rates for larger amounts, such as a property purchase or a residency deposit. Compare the total cost, not just the fee. See <a href="/moving-money/">Moving money to Panama</a> for options, paperwork and how to avoid wire fraud.</p>
 
 <h2 id="tax">Tax basics</h2>
 <p>Panama uses a territorial tax system: in general, it taxes income earned in Panama, not income from abroad. That doesn't remove obligations at home. US citizens, for example, are taxed on worldwide income wherever they live, and other countries have their own residency rules. Speak to a tax adviser who understands both countries before you move.</p>
@@ -641,7 +641,7 @@ PAGES = [
 },
 
 # ---------------------------------------------------------------- MOVING MONEY
-# AFFILIATE: add Wise (Partnerize) and Xe (Impact) where marked once approved.
+# AFFILIATE: Wise (Partnerize) added Oct 2026; add Xe (Impact) where marked once approved.
 {
 "slug": "moving-money",
 "title": "Moving Money to Panama: Wires, Transfer Services and Fees | Panama Expat Life",
@@ -664,7 +664,8 @@ PAGES = [
     <tr><th scope="row">Credit card</th><td>Everyday spending in cities</td><td>Foreign transaction fees on many cards</td></tr>
   </tbody>
 </table>
-<!-- AFFILIATE: Wise and Xe links, "compare a specialist transfer service" -->
+<p>To see what a specialist service would charge, get a quote from <a href="https://wise.prf.hn/click/camref:1011l6uLWU/pubref:pel-moving-money" rel="sponsored nofollow noopener" target="_blank">Wise</a> (affiliate link): it shows the exchange rate, the fee and exactly how many US dollars will arrive before you send anything, so you can compare it with your bank's quote for the same amount. Check the transfer limits for your currency and let your lawyer or the receiving bank know the money is coming.</p>
+<!-- AFFILIATE: Xe link (Impact) once approved, "compare a specialist transfer service" -->
 
 <h2 id="paperwork">Source-of-funds paperwork</h2>
 <p>Panamanian banks and lawyers follow strict anti-money-laundering rules. For any large amount, such as a residency deposit or a property purchase, expect to show where the money came from. Keep these ready:</p>
@@ -689,6 +690,7 @@ PAGES = [
 <ul>
   <li><strong>Keep your home bank accounts open.</strong> You'll need them for pensions, taxes and paying bills at home.</li>
   <li><strong>Carry a card with no foreign transaction fees</strong> and tell your bank you're in Panama.</li>
+  <li><strong>Consider a multi-currency account</strong> if you still have income or bills in your home currency. A service such as <a href="https://wise.prf.hn/click/camref:1011l6uLWU/pubref:pel-moving-money-everyday" rel="sponsored nofollow noopener" target="_blank">Wise</a> (affiliate link) lets you hold both currencies, convert when the rate suits you and spend in dollars with its card.</li>
   <li><strong>Carry small bills.</strong> Many small shops can't change a $50 or $100 note, and cash is still common outside Panama City.</li>
 </ul>
 """,
