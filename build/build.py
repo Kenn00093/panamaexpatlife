@@ -69,7 +69,8 @@ def layout(*, path, title, description, body, current="", schema=None, og_type="
     robots = '<meta name="robots" content="noindex">' if noindex else \
         '<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">'
     # Impact.com (affiliate network) site verification, homepage only
-    verify = "<meta name='impact-site-verification' value='b0d95ea4-9ee7-4595-a4f1-52f46f5ef2b8'>\n" if path == "/" else ""
+    verify = ("<meta name='impact-site-verification' value='b0d95ea4-9ee7-4595-a4f1-52f46f5ef2b8'>\n"
+              '<meta name="fo-verify" content="34a00910-623a-4b8e-a31a-d72cf568bb4d" />\n') if path == "/" else ""
     schema_html = ld({"@context": "https://schema.org", "@graph": [ORG, WEBSITE] + (schema or [])})
     return f"""<!doctype html>
 <html lang="{LANG}">
