@@ -76,7 +76,7 @@ PAGES = [
 <p>We're interviewing people who have made the move to every region of Panama, and adding their lessons here as we go. The themes that come up most often so far:</p>
 <ul>
   <li>Live in an area for a week or more before you buy. People who bought on a first holiday visit often wish they'd compared towns first.</li>
-  <li>Start Spanish lessons before you arrive, even an hour a week.</li>
+  <li>Start Spanish lessons before you arrive, even an hour a week. An online tutor on <a href="https://www.italki.com/affshare?ref=af34599678" rel="sponsored nofollow noopener" target="_blank">italki</a> (affiliate link) can be a Latin American teacher who knows the Spanish you will actually hear in Panama.</li>
   <li>Keep a home-country bank account and card open; local banking takes time.</li>
   <li>Build in buffer time for every government process.</li>
 </ul>
@@ -532,7 +532,7 @@ PAGES = [
 },
 
 # ---------------------------------------------------------------- RENTING A CAR
-# AFFILIATE: EconomyBookings and QEEQ (Travelpayouts) added Nov 2026; add DiscoverCars where marked once unlocked.
+# AFFILIATE: DiscoverCars (direct), EconomyBookings and QEEQ (Travelpayouts) added Nov 2026.
 {
 "slug": "renting-a-car",
 "title": "Renting a Car in Panama: Insurance, Tolls and Driving Tips | Panama Expat Life",
@@ -548,8 +548,7 @@ PAGES = [
   <li><strong>Collision damage cover</strong> for the rental car itself is where your credit card may help. Ask your card issuer for a letter confirming the cover applies in Panama and bring it with you. Expect a larger hold on your card if you decline the company's own cover.</li>
   <li><strong>Read what's excluded.</strong> Tires, glass and the underside of the car are often excluded unless you buy extra cover.</li>
 </ul>
-<p>To compare companies at Tocumen and around the country in one search, try a car rental booking site such as <a href="https://economybookings.tpx.lu/PffIAzlP" rel="sponsored nofollow noopener" target="_blank">EconomyBookings</a> or <a href="https://qeeq.tpx.lu/uiJkN7pL" rel="sponsored nofollow noopener" target="_blank">QEEQ</a> (affiliate links). Before you book, check whether the price includes Panama's mandatory liability insurance, and read the deposit and cancellation terms for the company you choose.</p>
-<!-- AFFILIATE: DiscoverCars, "compare total prices including insurance" -->
+<p>To compare companies at Tocumen and around the country in one search, try a car rental booking site such as <a href="https://www.discovercars.com/?a_aid=panamaexpatlife" rel="sponsored nofollow noopener" target="_blank">DiscoverCars</a>, <a href="https://economybookings.tpx.lu/PffIAzlP" rel="sponsored nofollow noopener" target="_blank">EconomyBookings</a> or <a href="https://qeeq.tpx.lu/uiJkN7pL" rel="sponsored nofollow noopener" target="_blank">QEEQ</a> (affiliate links). Before you book, check whether the price includes Panama's mandatory liability insurance, and read the deposit and cancellation terms for the company you choose.</p>
 
 <h2 id="what-you-need">What you need to rent</h2>
 <ul>
@@ -622,6 +621,7 @@ PAGES = [
   <li><strong>Trip length and age limits.</strong> Make sure the policy covers your whole trip, including any extension, and check age limits on credit card travel insurance, which are often lower than people expect.</li>
   <li><strong>Trip cancellation and interruption</strong> are optional. They're worth considering if you've prepaid flights and rentals you can't get back.</li>
 </ul>
+<p>One option to compare is <a href="https://safetywing.com/nomad-insurance?referenceID=26645558&amp;utm_source=26645558&amp;utm_medium=Ambassador" rel="sponsored nofollow noopener" target="_blank">SafetyWing Nomad Insurance</a> (affiliate link), which is built for longer trips and can be bought for as long as you need. Check its medical limit, age limits and pre-existing condition rules against the list above before you buy.</p>
 <!-- AFFILIATE: VisitorsCoverage / Insubuy comparison link -->
 
 <h2 id="when-to-buy">When to buy</h2>
@@ -813,7 +813,7 @@ CHECKLIST = [
 ("12 months before", [
   "Make a scouting trip of at least two weeks, ideally in the rainy season.",
   "Shortlist one or two regions.",
-  "Start Spanish lessons, even an hour a week.",
+  "Start Spanish lessons, even an hour a week, for example with an online tutor on <a href=\"https://www.italki.com/affshare?ref=af34599678\" rel=\"sponsored nofollow noopener\" target=\"_blank\">italki</a> (affiliate link).",
   "Read up on the residency routes and decide which you might qualify for.",
 ]),
 ("9 months before", [
@@ -838,7 +838,7 @@ CHECKLIST = [
   "Collect originals of every document your lawyer needs.",
   "Get your pets' health certificate endorsed and stamped by a Panamanian consulate.",
   "Notify Panama's Ministry of Health of your pets' arrival at least three days ahead.",
-  "Set up mail forwarding and a plan for paying bills at home.",
+  "Set up mail forwarding and a plan for paying bills at home. A virtual mailbox such as <a href=\"https://travelingmailbox.com/?ref=3957\" rel=\"sponsored nofollow noopener\" target=\"_blank\">Traveling Mailbox</a> (affiliate link) gives you a US address and scans your letters so you can read them in Panama.",
 ]),
 ("First week in Panama", [
   "Meet your lawyer and start your residency filing.",
