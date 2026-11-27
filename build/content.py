@@ -314,7 +314,7 @@ PAGES = [
 "title": "Moving to Panama: Pets, Household Goods and Cars | Panama Expat Life",
 "h1": "Moving your life to Panama",
 "kicker": "Moving",
-"description": "How to bring your dog or cat to Panama, whether to ship household goods or buy new, and what to know about bringing a car.",
+"description": "How to bring your dog or cat to Panama, whether to ship household goods or buy new, what to know about bringing a car, and how to shop online from the US.",
 "lead": "The three big logistics questions are your pets, your belongings and your car. Pets can come with an endorsed health certificate, up-to-date rabies vaccination and advance notice to Panama's health ministry. Most people ship far less than they expect, because shipping, import paperwork and Panama's climate make many household items a poor fit.",
 "body": """
 <h2 id="pets">Bringing a dog or cat to Panama</h2>
@@ -349,6 +349,10 @@ PAGES = [
 <h2 id="cars">Bringing a car</h2>
 <p>You can import a vehicle, but duties, shipping and paperwork often make it cheaper to buy in Panama, where most popular models are sold and serviced. If you do want to bring one, <a href="https://contenedorpro.com/?ref=PEDASI" rel="sponsored nofollow noopener" target="_blank">ContenedorPro</a> (referral link) handles vehicle imports with the paperwork. Pensionado holders have historically had vehicle import benefits; check the current terms before deciding.</p>
 <p>Visitors can usually drive on a valid foreign licence for a limited period (commonly 90 days); residents need to switch to a Panamanian licence.</p>
+
+<h2 id="online-shopping">Shopping online from the US</h2>
+<p>There's no home postal delivery in Panama as North Americans know it. Most expats use a local mailbox and courier company that gives you a Miami address: you order from Amazon or other US shops, the parcels are flown down together and delivered or held for pickup in Panama. Customs duty and 7% sales tax can apply to larger orders, so ask how your mailbox company charges.</p>
+<p>If you'd rather not route everything through Miami, a package forwarder such as <a href="https://www.shipito.com/?id_affiliate=25049" rel="sponsored nofollow noopener" target="_blank">Shipito</a> (affiliate link) gives you a free US address at its own warehouse and ships your parcels internationally by courier straight to your address in Panama. It's useful for shops that won't deliver to a mailbox company, or for combining several orders into one box. Compare the shipping cost with a local mailbox service before you choose.</p>
 """,
 "faq": [
 ("Can I bring my dog to Panama?",
