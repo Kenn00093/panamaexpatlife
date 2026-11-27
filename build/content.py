@@ -532,7 +532,7 @@ PAGES = [
 },
 
 # ---------------------------------------------------------------- RENTING A CAR
-# AFFILIATE: add the DiscoverCars link (Travelpayouts) where marked once approved.
+# AFFILIATE: EconomyBookings and QEEQ (Travelpayouts) added Nov 2026; add DiscoverCars where marked once unlocked.
 {
 "slug": "renting-a-car",
 "title": "Renting a Car in Panama: Insurance, Tolls and Driving Tips | Panama Expat Life",
@@ -548,6 +548,7 @@ PAGES = [
   <li><strong>Collision damage cover</strong> for the rental car itself is where your credit card may help. Ask your card issuer for a letter confirming the cover applies in Panama and bring it with you. Expect a larger hold on your card if you decline the company's own cover.</li>
   <li><strong>Read what's excluded.</strong> Tires, glass and the underside of the car are often excluded unless you buy extra cover.</li>
 </ul>
+<p>To compare companies at Tocumen and around the country in one search, try a car rental booking site such as <a href="https://economybookings.tpx.lu/PffIAzlP" rel="sponsored nofollow noopener" target="_blank">EconomyBookings</a> or <a href="https://qeeq.tpx.lu/uiJkN7pL" rel="sponsored nofollow noopener" target="_blank">QEEQ</a> (affiliate links). Before you book, check whether the price includes Panama's mandatory liability insurance, and read the deposit and cancellation terms for the company you choose.</p>
 <!-- AFFILIATE: DiscoverCars, "compare total prices including insurance" -->
 
 <h2 id="what-you-need">What you need to rent</h2>
@@ -715,7 +716,7 @@ PAGES = [
 "lead": "For a scouting trip, a travel eSIM gives you data the moment you land. Once you're living here, a local prepaid or postpaid plan from Panama's two mobile carriers, Tigo and +M&oacute;vil, is cheaper. In cities you can get fibre or cable internet at home; in rural areas, Starlink is an option.",
 "body": """
 <h2 id="esim">Scouting trip: a travel eSIM</h2>
-<p>An eSIM is set up on your phone before you leave, so you have maps, ride-hailing and WhatsApp as soon as you land, without hunting for a SIM shop. Check that your phone is unlocked and supports eSIM, buy a Panama plan from a provider such as <a href="https://airalo.tpx.lu/A0bmF3qo" rel="sponsored nofollow noopener" target="_blank">Airalo</a> or <a href="https://saily.tpx.lu/zDFW3eir" rel="sponsored nofollow noopener" target="_blank">Saily</a> (affiliate links) before you fly, and switch it on when you arrive. Keep your home SIM active for bank security codes sent by text.</p>
+<p>An eSIM is set up on your phone before you leave, so you have maps, ride-hailing and WhatsApp as soon as you land, without hunting for a SIM shop. Check that your phone is unlocked and supports eSIM, buy a Panama plan from a provider such as <a href="https://airalo.tpx.lu/A0bmF3qo" rel="sponsored nofollow noopener" target="_blank">Airalo</a> or <a href="https://saily.tpx.lu/zDFW3eir" rel="sponsored nofollow noopener" target="_blank">Saily</a> or <a href="https://yesim.tpx.lu/NQFbMTrZ" rel="sponsored nofollow noopener" target="_blank">Yesim</a> (affiliate links) before you fly, and switch it on when you arrive. Keep your home SIM active for bank security codes sent by text.</p>
 
 <h2 id="local-sim">Living here: a local SIM</h2>
 <p>Panama has two mobile carriers, Tigo and +M&oacute;vil (Cable &amp; Wireless). Both sell cheap prepaid plans and monthly contracts. Coverage is good in cities and towns but patchy in the mountains, on remote beaches and on some islands, so ask neighbours which network works best where you plan to live. Bring your passport when you buy a SIM.</p>
@@ -770,7 +771,7 @@ PAGES = [
 <ul>
   <li><strong>Official airport taxis</strong> charge a fixed fare agreed before you set off, usually around $30 to $40 to the centre.</li>
   <li><strong>Uber</strong> is usually cheaper. Pickups are from a designated area, not the arrivals door, and you'll need data, so set up your <a href="/phones-and-internet/">eSIM</a> before you fly.</li>
-  <li><strong>A pre-booked transfer</strong> costs more than Uber but a driver meets you in arrivals at a fixed price, which helps after a late flight or with lots of luggage. <a href="https://kiwitaxi.tpx.lu/ImrsLPQm" rel="sponsored nofollow noopener" target="_blank">Kiwitaxi</a> (affiliate link) takes bookings from Tocumen to Panama City and beyond.</li>
+  <li><strong>A pre-booked transfer</strong> costs more than Uber but a driver meets you in arrivals at a fixed price, which helps after a late flight or with lots of luggage. <a href="https://kiwitaxi.tpx.lu/ImrsLPQm" rel="sponsored nofollow noopener" target="_blank">Kiwitaxi</a> and <a href="https://tpx.lu/9BiSXgRl" rel="sponsored nofollow noopener" target="_blank">Welcome Pickups</a> (affiliate links) take bookings from Tocumen to Panama City and beyond.</li>
   <li><strong>The metro</strong> has an airport branch on Line 2. It's by far the cheapest option but slow, with a transfer, and awkward with big bags.</li>
   <li><strong>Rental cars</strong> can be collected at the airport. See <a href="/renting-a-car/">Renting a car</a>.</li>
 </ul>
