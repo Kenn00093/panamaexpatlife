@@ -76,7 +76,7 @@ PAGES = [
 <p>We're interviewing people who have made the move to every region of Panama, and adding their lessons here as we go. The themes that come up most often so far:</p>
 <ul>
   <li>Live in an area for a week or more before you buy. People who bought on a first holiday visit often wish they'd compared towns first.</li>
-  <li>Start Spanish lessons before you arrive, even an hour a week.</li>
+  <li>Start Spanish lessons before you arrive, even an hour a week. An online tutor on <a href="https://www.italki.com/affshare?ref=af34599678" rel="sponsored nofollow noopener" target="_blank">italki</a> (affiliate link) can be a Latin American teacher who knows the Spanish you will actually hear in Panama.</li>
   <li>Keep a home-country bank account and card open; local banking takes time.</li>
   <li>Build in buffer time for every government process.</li>
 </ul>
@@ -813,7 +813,7 @@ CHECKLIST = [
 ("12 months before", [
   "Make a scouting trip of at least two weeks, ideally in the rainy season.",
   "Shortlist one or two regions.",
-  "Start Spanish lessons, even an hour a week.",
+  "Start Spanish lessons, even an hour a week, for example with an online tutor on <a href=\"https://www.italki.com/affshare?ref=af34599678\" rel=\"sponsored nofollow noopener\" target=\"_blank\">italki</a> (affiliate link).",
   "Read up on the residency routes and decide which you might qualify for.",
 ]),
 ("9 months before", [
